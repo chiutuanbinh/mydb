@@ -1,0 +1,1562 @@
+[
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_bad_any_cast_impl.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_bad_any_cast_impl.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_bad_optional_access.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_bad_optional_access.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_bad_variant_access.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_bad_variant_access.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_base.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_base.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_city.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_city.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_civil_time.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_civil_time.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cord.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cord.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cord_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cord_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cordz_functions.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cordz_functions.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cordz_handle.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cordz_handle.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cordz_info.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cordz_info.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cordz_sample_token.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cordz_sample_token.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_debugging_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_debugging_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_demangle_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_demangle_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_examine_stack.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_examine_stack.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_exponential_biased.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_exponential_biased.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_failure_signal_handler.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_failure_signal_handler.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_commandlineflag.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_commandlineflag.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_commandlineflag_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_commandlineflag_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_config.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_config.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_marshalling.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_marshalling.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_parse.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_parse.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_private_handle_accessor.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_private_handle_accessor.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_program_name.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_program_name.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_reflection.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_reflection.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_usage.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_usage.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_usage_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_usage_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_graphcycles_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_graphcycles_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_hash.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_hash.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_hashtablez_sampler.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_hashtablez_sampler.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_int128.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_int128.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_leak_check.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_leak_check.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_log_severity.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_log_severity.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_low_level_hash.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_low_level_hash.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_malloc_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_malloc_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_periodic_sampler.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_periodic_sampler.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_distributions.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_distributions.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_distribution_test_util.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_distribution_test_util.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_platform.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_platform.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_pool_urbg.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_pool_urbg.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_randen.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_randen.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_randen_hwaes.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_randen_hwaes.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_randen_hwaes_impl.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_randen_hwaes_impl.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_randen_slow.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_randen_slow.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_seed_material.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_seed_material.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_seed_gen_exception.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_seed_gen_exception.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_seed_sequences.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_seed_sequences.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_raw_hash_set.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_raw_hash_set.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_raw_logging_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_raw_logging_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_scoped_set_env.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_scoped_set_env.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_spinlock_wait.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_spinlock_wait.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_stacktrace.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_stacktrace.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_status.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_status.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_statusor.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_statusor.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_str_format_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_str_format_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_strerror.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_strerror.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_strings.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_strings.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_strings_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_strings_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_symbolize.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_symbolize.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_synchronization.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_synchronization.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_throw_delegate.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_throw_delegate.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_time.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_time.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_time_zone.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_time_zone.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libaddress_sorting.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libaddress_sorting.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libcares.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libcares.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libcrypto.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libcrypto.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgpr.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgpr.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++_alts.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++_alts.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++_error_details.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++_error_details.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++_reflection.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++_reflection.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++_unsecure.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++_unsecure.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc_plugin_support.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc_plugin_support.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc_unsecure.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc_unsecure.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpcpp_channelz.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpcpp_channelz.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libprotobuf-lite.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libprotobuf-lite.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libprotobuf.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libprotobuf.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libprotoc.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libprotoc.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libre2.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libre2.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libssl.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libssl.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libupb.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libupb.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libz.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libz.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libz.so",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libz.so"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libz.so.1",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libz.so.1"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libz.so.1.2.12",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libz.so.1.2.12"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/absl",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/absl"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares_build.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares_build.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares_dns.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares_dns.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares_rules.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares_rules.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares_version.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares_version.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/google",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/google"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/grpc",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/grpc"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/grpc++",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/grpc++"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/grpcpp",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/grpcpp"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/re2",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/re2"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/zconf.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/zconf.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/zlib.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/zlib.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -std=c++0x -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem main/include -isystem bazel-out/k8-fastbuild/bin/main/include -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -x c++ -std=c++17 -c main/include/route_guide.grpc.pb.cc",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "main/include/route_guide.grpc.pb.cc"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -std=c++0x -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem main/include -isystem bazel-out/k8-fastbuild/bin/main/include -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -x c++ -std=c++17 -c main/include/route_guide.pb.cc",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "main/include/route_guide.pb.cc"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -std=c++0x -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem main/include -isystem bazel-out/k8-fastbuild/bin/main/include -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -x c++ -std=c++17 -c main/include/route_guide.grpc.pb.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "main/include/route_guide.grpc.pb.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -std=c++0x -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem main/include -isystem bazel-out/k8-fastbuild/bin/main/include -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -x c++ -std=c++17 -c main/include/route_guide.pb.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "main/include/route_guide.pb.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_bad_any_cast_impl.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_bad_any_cast_impl.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_bad_optional_access.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_bad_optional_access.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_bad_variant_access.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_bad_variant_access.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_base.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_base.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_city.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_city.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_civil_time.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_civil_time.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cord.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cord.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cord_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cord_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cordz_functions.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cordz_functions.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cordz_handle.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cordz_handle.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cordz_info.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cordz_info.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cordz_sample_token.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cordz_sample_token.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_debugging_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_debugging_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_demangle_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_demangle_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_examine_stack.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_examine_stack.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_exponential_biased.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_exponential_biased.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_failure_signal_handler.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_failure_signal_handler.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_commandlineflag.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_commandlineflag.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_commandlineflag_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_commandlineflag_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_config.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_config.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_marshalling.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_marshalling.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_parse.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_parse.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_private_handle_accessor.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_private_handle_accessor.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_program_name.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_program_name.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_reflection.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_reflection.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_usage.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_usage.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_usage_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_usage_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_graphcycles_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_graphcycles_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_hash.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_hash.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_hashtablez_sampler.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_hashtablez_sampler.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_int128.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_int128.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_leak_check.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_leak_check.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_log_severity.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_log_severity.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_low_level_hash.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_low_level_hash.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_malloc_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_malloc_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_periodic_sampler.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_periodic_sampler.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_distributions.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_distributions.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_distribution_test_util.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_distribution_test_util.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_platform.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_platform.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_pool_urbg.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_pool_urbg.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_randen.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_randen.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_randen_hwaes.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_randen_hwaes.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_randen_hwaes_impl.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_randen_hwaes_impl.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_randen_slow.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_randen_slow.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_seed_material.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_seed_material.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_seed_gen_exception.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_seed_gen_exception.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_seed_sequences.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_seed_sequences.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_raw_hash_set.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_raw_hash_set.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_raw_logging_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_raw_logging_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_scoped_set_env.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_scoped_set_env.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_spinlock_wait.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_spinlock_wait.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_stacktrace.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_stacktrace.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_status.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_status.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_statusor.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_statusor.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_str_format_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_str_format_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_strerror.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_strerror.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_strings.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_strings.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_strings_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_strings_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_symbolize.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_symbolize.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_synchronization.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_synchronization.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_throw_delegate.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_throw_delegate.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_time.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_time.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_time_zone.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_time_zone.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libaddress_sorting.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libaddress_sorting.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libcares.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libcares.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libcrypto.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libcrypto.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgpr.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgpr.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++_alts.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++_alts.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++_error_details.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++_error_details.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++_reflection.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++_reflection.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++_unsecure.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++_unsecure.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc_plugin_support.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc_plugin_support.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc_unsecure.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc_unsecure.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpcpp_channelz.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpcpp_channelz.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libprotobuf-lite.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libprotobuf-lite.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libprotobuf.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libprotobuf.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libprotoc.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libprotoc.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libre2.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libre2.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libssl.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libssl.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libupb.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libupb.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libz.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libz.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libz.so",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libz.so"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libz.so.1",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libz.so.1"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libz.so.1.2.12",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libz.so.1.2.12"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/absl",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/absl"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares_build.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares_build.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares_dns.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares_dns.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares_rules.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares_rules.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares_version.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares_version.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/google",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/google"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/grpc",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/grpc"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/grpc++",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/grpc++"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/grpcpp",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/grpcpp"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/re2",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/re2"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/zconf.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/zconf.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/zlib.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/zlib.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_bad_any_cast_impl.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_bad_any_cast_impl.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_bad_optional_access.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_bad_optional_access.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_bad_variant_access.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_bad_variant_access.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_base.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_base.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_city.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_city.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_civil_time.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_civil_time.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cord.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cord.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cord_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cord_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cordz_functions.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cordz_functions.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cordz_handle.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cordz_handle.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cordz_info.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cordz_info.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_cordz_sample_token.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_cordz_sample_token.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_debugging_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_debugging_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_demangle_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_demangle_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_examine_stack.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_examine_stack.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_exponential_biased.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_exponential_biased.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_failure_signal_handler.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_failure_signal_handler.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_commandlineflag.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_commandlineflag.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_commandlineflag_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_commandlineflag_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_config.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_config.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_marshalling.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_marshalling.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_parse.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_parse.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_private_handle_accessor.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_private_handle_accessor.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_program_name.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_program_name.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_reflection.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_reflection.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_usage.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_usage.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_flags_usage_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_flags_usage_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_graphcycles_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_graphcycles_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_hash.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_hash.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_hashtablez_sampler.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_hashtablez_sampler.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_int128.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_int128.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_leak_check.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_leak_check.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_log_severity.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_log_severity.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_low_level_hash.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_low_level_hash.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_malloc_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_malloc_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_periodic_sampler.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_periodic_sampler.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_distributions.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_distributions.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_distribution_test_util.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_distribution_test_util.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_platform.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_platform.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_pool_urbg.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_pool_urbg.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_randen.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_randen.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_randen_hwaes.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_randen_hwaes.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_randen_hwaes_impl.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_randen_hwaes_impl.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_randen_slow.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_randen_slow.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_internal_seed_material.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_internal_seed_material.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_seed_gen_exception.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_seed_gen_exception.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_random_seed_sequences.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_random_seed_sequences.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_raw_hash_set.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_raw_hash_set.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_raw_logging_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_raw_logging_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_scoped_set_env.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_scoped_set_env.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_spinlock_wait.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_spinlock_wait.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_stacktrace.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_stacktrace.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_status.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_status.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_statusor.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_statusor.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_str_format_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_str_format_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_strerror.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_strerror.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_strings.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_strings.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_strings_internal.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_strings_internal.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_symbolize.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_symbolize.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_synchronization.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_synchronization.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_throw_delegate.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_throw_delegate.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_time.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_time.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libabsl_time_zone.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libabsl_time_zone.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libaddress_sorting.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libaddress_sorting.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libcares.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libcares.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libcrypto.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libcrypto.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgpr.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgpr.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++_alts.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++_alts.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++_error_details.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++_error_details.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++_reflection.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++_reflection.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc++_unsecure.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc++_unsecure.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc_plugin_support.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc_plugin_support.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpc_unsecure.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpc_unsecure.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libgrpcpp_channelz.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libgrpcpp_channelz.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libprotobuf-lite.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libprotobuf-lite.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libprotobuf.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libprotobuf.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libprotoc.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libprotoc.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libre2.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libre2.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libssl.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libssl.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libupb.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libupb.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libz.a",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libz.a"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libz.so",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libz.so"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libz.so.1",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libz.so.1"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/lib/libz.so.1.2.12",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/lib/libz.so.1.2.12"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/absl",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/absl"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares_build.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares_build.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares_dns.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares_dns.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares_rules.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares_rules.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/ares_version.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/ares_version.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/google",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/google"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/grpc",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/grpc"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/grpc++",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/grpc++"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/grpcpp",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/grpcpp"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/re2",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/re2"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/zconf.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/zconf.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -c lib/grpc/include/zlib.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "lib/grpc/include/zlib.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -std=c++0x -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem main/include -isystem bazel-out/k8-fastbuild/bin/main/include -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -x c++ -std=c++17 -c main/include/route_guide.grpc.pb.cc",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "main/include/route_guide.grpc.pb.cc"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -std=c++0x -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem main/include -isystem bazel-out/k8-fastbuild/bin/main/include -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -x c++ -std=c++17 -c main/include/route_guide.pb.cc",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "main/include/route_guide.pb.cc"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -std=c++0x -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem main/include -isystem bazel-out/k8-fastbuild/bin/main/include -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -x c++ -std=c++17 -c main/include/route_guide.grpc.pb.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "main/include/route_guide.grpc.pb.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -std=c++0x -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem main/include -isystem bazel-out/k8-fastbuild/bin/main/include -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -I . -I bazel-out/k8-fastbuild/bin -x c++ -std=c++17 -c main/include/route_guide.pb.h",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "main/include/route_guide.pb.h"
+  },
+  {
+    "command": "/usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -std=c++0x -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem lib/grpc/include -isystem bazel-out/k8-fastbuild/bin/lib/grpc/include -isystem main/include -isystem bazel-out/k8-fastbuild/bin/main/include -I . -I bazel-out/k8-fastbuild/bin -I external/bazel_tools -I bazel-out/k8-fastbuild/bin/external/bazel_tools -x c++ -std=c++17 -c main/server.cpp",
+    "directory": "/home/binhct/.cache/bazel/_bazel_binhct/d418208916c3a0ae68f3276c76b1ed7d/execroot/MYDB",
+    "file": "main/server.cpp"
+  }
+]
