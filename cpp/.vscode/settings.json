@@ -2,11 +2,19 @@
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "*.inc": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "memory_resource": "cpp"
     },
-    "bsv.cc.compdb.targets": [
-        "//main:server",
-        "//main:route_guide_proto",
-        "//lib:grpc"
-    ]
+    "cmake.sourceDirectory": "${workspaceFolder}/main",
 }
