@@ -63,38 +63,38 @@ extern EntryKeyDefaultTypeInternal _EntryKey_default_instance_;
 class EntryValue;
 struct EntryValueDefaultTypeInternal;
 extern EntryValueDefaultTypeInternal _EntryValue_default_instance_;
-class PutResp;
-struct PutRespDefaultTypeInternal;
-extern PutRespDefaultTypeInternal _PutResp_default_instance_;
+class SetResp;
+struct SetRespDefaultTypeInternal;
+extern SetRespDefaultTypeInternal _SetResp_default_instance_;
 }  // namespace mydb
 PROTOBUF_NAMESPACE_OPEN
 template<> ::mydb::Entry* Arena::CreateMaybeMessage<::mydb::Entry>(Arena*);
 template<> ::mydb::EntryKey* Arena::CreateMaybeMessage<::mydb::EntryKey>(Arena*);
 template<> ::mydb::EntryValue* Arena::CreateMaybeMessage<::mydb::EntryValue>(Arena*);
-template<> ::mydb::PutResp* Arena::CreateMaybeMessage<::mydb::PutResp>(Arena*);
+template<> ::mydb::SetResp* Arena::CreateMaybeMessage<::mydb::SetResp>(Arena*);
 PROTOBUF_NAMESPACE_CLOSE
 namespace mydb {
 
 // ===================================================================
 
-class PutResp final :
-    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:mydb.PutResp) */ {
+class SetResp final :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:mydb.SetResp) */ {
  public:
-  inline PutResp() : PutResp(nullptr) {}
-  ~PutResp() override;
-  explicit constexpr PutResp(::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized);
+  inline SetResp() : SetResp(nullptr) {}
+  ~SetResp() override;
+  explicit constexpr SetResp(::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized);
 
-  PutResp(const PutResp& from);
-  PutResp(PutResp&& from) noexcept
-    : PutResp() {
+  SetResp(const SetResp& from);
+  SetResp(SetResp&& from) noexcept
+    : SetResp() {
     *this = ::std::move(from);
   }
 
-  inline PutResp& operator=(const PutResp& from) {
+  inline SetResp& operator=(const SetResp& from) {
     CopyFrom(from);
     return *this;
   }
-  inline PutResp& operator=(PutResp&& from) noexcept {
+  inline SetResp& operator=(SetResp&& from) noexcept {
     if (this == &from) return *this;
     if (GetOwningArena() == from.GetOwningArena()
   #ifdef PROTOBUF_FORCE_COPY_IN_MOVE
@@ -117,20 +117,20 @@ class PutResp final :
   static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
     return default_instance().GetMetadata().reflection;
   }
-  static const PutResp& default_instance() {
+  static const SetResp& default_instance() {
     return *internal_default_instance();
   }
-  static inline const PutResp* internal_default_instance() {
-    return reinterpret_cast<const PutResp*>(
-               &_PutResp_default_instance_);
+  static inline const SetResp* internal_default_instance() {
+    return reinterpret_cast<const SetResp*>(
+               &_SetResp_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
     0;
 
-  friend void swap(PutResp& a, PutResp& b) {
+  friend void swap(SetResp& a, SetResp& b) {
     a.Swap(&b);
   }
-  inline void Swap(PutResp* other) {
+  inline void Swap(SetResp* other) {
     if (other == this) return;
   #ifdef PROTOBUF_FORCE_COPY_IN_SWAP
     if (GetOwningArena() != nullptr &&
@@ -143,7 +143,7 @@ class PutResp final :
       ::PROTOBUF_NAMESPACE_ID::internal::GenericSwap(this, other);
     }
   }
-  void UnsafeArenaSwap(PutResp* other) {
+  void UnsafeArenaSwap(SetResp* other) {
     if (other == this) return;
     GOOGLE_DCHECK(GetOwningArena() == other->GetOwningArena());
     InternalSwap(other);
@@ -151,13 +151,13 @@ class PutResp final :
 
   // implements Message ----------------------------------------------
 
-  PutResp* New(::PROTOBUF_NAMESPACE_ID::Arena* arena = nullptr) const final {
-    return CreateMaybeMessage<PutResp>(arena);
+  SetResp* New(::PROTOBUF_NAMESPACE_ID::Arena* arena = nullptr) const final {
+    return CreateMaybeMessage<SetResp>(arena);
   }
   using ::PROTOBUF_NAMESPACE_ID::Message::CopyFrom;
-  void CopyFrom(const PutResp& from);
+  void CopyFrom(const SetResp& from);
   using ::PROTOBUF_NAMESPACE_ID::Message::MergeFrom;
-  void MergeFrom(const PutResp& from);
+  void MergeFrom(const SetResp& from);
   private:
   static void MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to, const ::PROTOBUF_NAMESPACE_ID::Message& from);
   public:
@@ -174,15 +174,15 @@ class PutResp final :
   void SharedCtor();
   void SharedDtor();
   void SetCachedSize(int size) const final;
-  void InternalSwap(PutResp* other);
+  void InternalSwap(SetResp* other);
 
   private:
   friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
   static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
-    return "mydb.PutResp";
+    return "mydb.SetResp";
   }
   protected:
-  explicit PutResp(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+  explicit SetResp(::PROTOBUF_NAMESPACE_ID::Arena* arena,
                        bool is_message_owned = false);
   private:
   static void ArenaDtor(void* object);
@@ -210,7 +210,7 @@ class PutResp final :
   void _internal_set_code(int64_t value);
   public:
 
-  // @@protoc_insertion_point(class_scope:mydb.PutResp)
+  // @@protoc_insertion_point(class_scope:mydb.SetResp)
  private:
   class _Internal;
 
@@ -520,20 +520,20 @@ class EntryKey final :
   // accessors -------------------------------------------------------
 
   enum : int {
-    kVFieldNumber = 1,
+    kValueFieldNumber = 1,
   };
-  // bytes v = 1;
-  void clear_v();
-  const std::string& v() const;
+  // bytes value = 1;
+  void clear_value();
+  const std::string& value() const;
   template <typename ArgT0 = const std::string&, typename... ArgT>
-  void set_v(ArgT0&& arg0, ArgT... args);
-  std::string* mutable_v();
-  PROTOBUF_NODISCARD std::string* release_v();
-  void set_allocated_v(std::string* v);
+  void set_value(ArgT0&& arg0, ArgT... args);
+  std::string* mutable_value();
+  PROTOBUF_NODISCARD std::string* release_value();
+  void set_allocated_value(std::string* value);
   private:
-  const std::string& _internal_v() const;
-  inline PROTOBUF_ALWAYS_INLINE void _internal_set_v(const std::string& value);
-  std::string* _internal_mutable_v();
+  const std::string& _internal_value() const;
+  inline PROTOBUF_ALWAYS_INLINE void _internal_set_value(const std::string& value);
+  std::string* _internal_mutable_value();
   public:
 
   // @@protoc_insertion_point(class_scope:mydb.EntryKey)
@@ -543,7 +543,7 @@ class EntryKey final :
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
-  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr v_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr value_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_my_5fdb_2eproto;
 };
@@ -671,20 +671,20 @@ class EntryValue final :
   // accessors -------------------------------------------------------
 
   enum : int {
-    kVFieldNumber = 1,
+    kValueFieldNumber = 1,
   };
-  // bytes v = 1;
-  void clear_v();
-  const std::string& v() const;
+  // bytes value = 1;
+  void clear_value();
+  const std::string& value() const;
   template <typename ArgT0 = const std::string&, typename... ArgT>
-  void set_v(ArgT0&& arg0, ArgT... args);
-  std::string* mutable_v();
-  PROTOBUF_NODISCARD std::string* release_v();
-  void set_allocated_v(std::string* v);
+  void set_value(ArgT0&& arg0, ArgT... args);
+  std::string* mutable_value();
+  PROTOBUF_NODISCARD std::string* release_value();
+  void set_allocated_value(std::string* value);
   private:
-  const std::string& _internal_v() const;
-  inline PROTOBUF_ALWAYS_INLINE void _internal_set_v(const std::string& value);
-  std::string* _internal_mutable_v();
+  const std::string& _internal_value() const;
+  inline PROTOBUF_ALWAYS_INLINE void _internal_set_value(const std::string& value);
+  std::string* _internal_mutable_value();
   public:
 
   // @@protoc_insertion_point(class_scope:mydb.EntryValue)
@@ -694,7 +694,7 @@ class EntryValue final :
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
-  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr v_;
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr value_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_my_5fdb_2eproto;
 };
@@ -707,26 +707,26 @@ class EntryValue final :
   #pragma GCC diagnostic push
   #pragma GCC diagnostic ignored "-Wstrict-aliasing"
 #endif  // __GNUC__
-// PutResp
+// SetResp
 
 // int64 code = 1;
-inline void PutResp::clear_code() {
+inline void SetResp::clear_code() {
   code_ = int64_t{0};
 }
-inline int64_t PutResp::_internal_code() const {
+inline int64_t SetResp::_internal_code() const {
   return code_;
 }
-inline int64_t PutResp::code() const {
-  // @@protoc_insertion_point(field_get:mydb.PutResp.code)
+inline int64_t SetResp::code() const {
+  // @@protoc_insertion_point(field_get:mydb.SetResp.code)
   return _internal_code();
 }
-inline void PutResp::_internal_set_code(int64_t value) {
+inline void SetResp::_internal_set_code(int64_t value) {
   
   code_ = value;
 }
-inline void PutResp::set_code(int64_t value) {
+inline void SetResp::set_code(int64_t value) {
   _internal_set_code(value);
-  // @@protoc_insertion_point(field_set:mydb.PutResp.code)
+  // @@protoc_insertion_point(field_set:mydb.SetResp.code)
 }
 
 // -------------------------------------------------------------------
@@ -917,110 +917,110 @@ inline void Entry::set_allocated_entryvalue(::mydb::EntryValue* entryvalue) {
 
 // EntryKey
 
-// bytes v = 1;
-inline void EntryKey::clear_v() {
-  v_.ClearToEmpty();
+// bytes value = 1;
+inline void EntryKey::clear_value() {
+  value_.ClearToEmpty();
 }
-inline const std::string& EntryKey::v() const {
-  // @@protoc_insertion_point(field_get:mydb.EntryKey.v)
-  return _internal_v();
+inline const std::string& EntryKey::value() const {
+  // @@protoc_insertion_point(field_get:mydb.EntryKey.value)
+  return _internal_value();
 }
 template <typename ArgT0, typename... ArgT>
 inline PROTOBUF_ALWAYS_INLINE
-void EntryKey::set_v(ArgT0&& arg0, ArgT... args) {
+void EntryKey::set_value(ArgT0&& arg0, ArgT... args) {
  
- v_.SetBytes(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, static_cast<ArgT0 &&>(arg0), args..., GetArenaForAllocation());
-  // @@protoc_insertion_point(field_set:mydb.EntryKey.v)
+ value_.SetBytes(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, static_cast<ArgT0 &&>(arg0), args..., GetArenaForAllocation());
+  // @@protoc_insertion_point(field_set:mydb.EntryKey.value)
 }
-inline std::string* EntryKey::mutable_v() {
-  std::string* _s = _internal_mutable_v();
-  // @@protoc_insertion_point(field_mutable:mydb.EntryKey.v)
+inline std::string* EntryKey::mutable_value() {
+  std::string* _s = _internal_mutable_value();
+  // @@protoc_insertion_point(field_mutable:mydb.EntryKey.value)
   return _s;
 }
-inline const std::string& EntryKey::_internal_v() const {
-  return v_.Get();
+inline const std::string& EntryKey::_internal_value() const {
+  return value_.Get();
 }
-inline void EntryKey::_internal_set_v(const std::string& value) {
+inline void EntryKey::_internal_set_value(const std::string& value) {
   
-  v_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, value, GetArenaForAllocation());
+  value_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, value, GetArenaForAllocation());
 }
-inline std::string* EntryKey::_internal_mutable_v() {
+inline std::string* EntryKey::_internal_mutable_value() {
   
-  return v_.Mutable(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, GetArenaForAllocation());
+  return value_.Mutable(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, GetArenaForAllocation());
 }
-inline std::string* EntryKey::release_v() {
-  // @@protoc_insertion_point(field_release:mydb.EntryKey.v)
-  return v_.Release(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArenaForAllocation());
+inline std::string* EntryKey::release_value() {
+  // @@protoc_insertion_point(field_release:mydb.EntryKey.value)
+  return value_.Release(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArenaForAllocation());
 }
-inline void EntryKey::set_allocated_v(std::string* v) {
-  if (v != nullptr) {
+inline void EntryKey::set_allocated_value(std::string* value) {
+  if (value != nullptr) {
     
   } else {
     
   }
-  v_.SetAllocated(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), v,
+  value_.SetAllocated(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value,
       GetArenaForAllocation());
 #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
-  if (v_.IsDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited())) {
-    v_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
+  if (value_.IsDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited())) {
+    value_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
   }
 #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
-  // @@protoc_insertion_point(field_set_allocated:mydb.EntryKey.v)
+  // @@protoc_insertion_point(field_set_allocated:mydb.EntryKey.value)
 }
 
 // -------------------------------------------------------------------
 
 // EntryValue
 
-// bytes v = 1;
-inline void EntryValue::clear_v() {
-  v_.ClearToEmpty();
+// bytes value = 1;
+inline void EntryValue::clear_value() {
+  value_.ClearToEmpty();
 }
-inline const std::string& EntryValue::v() const {
-  // @@protoc_insertion_point(field_get:mydb.EntryValue.v)
-  return _internal_v();
+inline const std::string& EntryValue::value() const {
+  // @@protoc_insertion_point(field_get:mydb.EntryValue.value)
+  return _internal_value();
 }
 template <typename ArgT0, typename... ArgT>
 inline PROTOBUF_ALWAYS_INLINE
-void EntryValue::set_v(ArgT0&& arg0, ArgT... args) {
+void EntryValue::set_value(ArgT0&& arg0, ArgT... args) {
  
- v_.SetBytes(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, static_cast<ArgT0 &&>(arg0), args..., GetArenaForAllocation());
-  // @@protoc_insertion_point(field_set:mydb.EntryValue.v)
+ value_.SetBytes(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, static_cast<ArgT0 &&>(arg0), args..., GetArenaForAllocation());
+  // @@protoc_insertion_point(field_set:mydb.EntryValue.value)
 }
-inline std::string* EntryValue::mutable_v() {
-  std::string* _s = _internal_mutable_v();
-  // @@protoc_insertion_point(field_mutable:mydb.EntryValue.v)
+inline std::string* EntryValue::mutable_value() {
+  std::string* _s = _internal_mutable_value();
+  // @@protoc_insertion_point(field_mutable:mydb.EntryValue.value)
   return _s;
 }
-inline const std::string& EntryValue::_internal_v() const {
-  return v_.Get();
+inline const std::string& EntryValue::_internal_value() const {
+  return value_.Get();
 }
-inline void EntryValue::_internal_set_v(const std::string& value) {
+inline void EntryValue::_internal_set_value(const std::string& value) {
   
-  v_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, value, GetArenaForAllocation());
+  value_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, value, GetArenaForAllocation());
 }
-inline std::string* EntryValue::_internal_mutable_v() {
+inline std::string* EntryValue::_internal_mutable_value() {
   
-  return v_.Mutable(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, GetArenaForAllocation());
+  return value_.Mutable(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, GetArenaForAllocation());
 }
-inline std::string* EntryValue::release_v() {
-  // @@protoc_insertion_point(field_release:mydb.EntryValue.v)
-  return v_.Release(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArenaForAllocation());
+inline std::string* EntryValue::release_value() {
+  // @@protoc_insertion_point(field_release:mydb.EntryValue.value)
+  return value_.Release(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArenaForAllocation());
 }
-inline void EntryValue::set_allocated_v(std::string* v) {
-  if (v != nullptr) {
+inline void EntryValue::set_allocated_value(std::string* value) {
+  if (value != nullptr) {
     
   } else {
     
   }
-  v_.SetAllocated(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), v,
+  value_.SetAllocated(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), value,
       GetArenaForAllocation());
 #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
-  if (v_.IsDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited())) {
-    v_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
+  if (value_.IsDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited())) {
+    value_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
   }
 #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
-  // @@protoc_insertion_point(field_set_allocated:mydb.EntryValue.v)
+  // @@protoc_insertion_point(field_set_allocated:mydb.EntryValue.value)
 }
 
 #ifdef __GNUC__

@@ -17,18 +17,18 @@
 
 PROTOBUF_PRAGMA_INIT_SEG
 namespace mydb {
-constexpr PutResp::PutResp(
+constexpr SetResp::SetResp(
   ::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized)
   : code_(int64_t{0}){}
-struct PutRespDefaultTypeInternal {
-  constexpr PutRespDefaultTypeInternal()
+struct SetRespDefaultTypeInternal {
+  constexpr SetRespDefaultTypeInternal()
     : _instance(::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized{}) {}
-  ~PutRespDefaultTypeInternal() {}
+  ~SetRespDefaultTypeInternal() {}
   union {
-    PutResp _instance;
+    SetResp _instance;
   };
 };
-PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PutRespDefaultTypeInternal _PutResp_default_instance_;
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT SetRespDefaultTypeInternal _SetResp_default_instance_;
 constexpr Entry::Entry(
   ::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized)
   : entrykey_(nullptr)
@@ -44,7 +44,7 @@ struct EntryDefaultTypeInternal {
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT EntryDefaultTypeInternal _Entry_default_instance_;
 constexpr EntryKey::EntryKey(
   ::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized)
-  : v_(&::PROTOBUF_NAMESPACE_ID::internal::fixed_address_empty_string){}
+  : value_(&::PROTOBUF_NAMESPACE_ID::internal::fixed_address_empty_string){}
 struct EntryKeyDefaultTypeInternal {
   constexpr EntryKeyDefaultTypeInternal()
     : _instance(::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized{}) {}
@@ -56,7 +56,7 @@ struct EntryKeyDefaultTypeInternal {
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT EntryKeyDefaultTypeInternal _EntryKey_default_instance_;
 constexpr EntryValue::EntryValue(
   ::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized)
-  : v_(&::PROTOBUF_NAMESPACE_ID::internal::fixed_address_empty_string){}
+  : value_(&::PROTOBUF_NAMESPACE_ID::internal::fixed_address_empty_string){}
 struct EntryValueDefaultTypeInternal {
   constexpr EntryValueDefaultTypeInternal()
     : _instance(::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized{}) {}
@@ -73,12 +73,12 @@ static constexpr ::PROTOBUF_NAMESPACE_ID::ServiceDescriptor const** file_level_s
 
 const uint32_t TableStruct_my_5fdb_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::mydb::PutResp, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::mydb::SetResp, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
   ~0u,  // no _inlined_string_donated_
-  PROTOBUF_FIELD_OFFSET(::mydb::PutResp, code_),
+  PROTOBUF_FIELD_OFFSET(::mydb::SetResp, code_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::mydb::Entry, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -93,42 +93,42 @@ const uint32_t TableStruct_my_5fdb_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
   ~0u,  // no _inlined_string_donated_
-  PROTOBUF_FIELD_OFFSET(::mydb::EntryKey, v_),
+  PROTOBUF_FIELD_OFFSET(::mydb::EntryKey, value_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::mydb::EntryValue, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
   ~0u,  // no _inlined_string_donated_
-  PROTOBUF_FIELD_OFFSET(::mydb::EntryValue, v_),
+  PROTOBUF_FIELD_OFFSET(::mydb::EntryValue, value_),
 };
 static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, -1, sizeof(::mydb::PutResp)},
+  { 0, -1, -1, sizeof(::mydb::SetResp)},
   { 7, -1, -1, sizeof(::mydb::Entry)},
   { 15, -1, -1, sizeof(::mydb::EntryKey)},
   { 22, -1, -1, sizeof(::mydb::EntryValue)},
 };
 
 static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::mydb::_PutResp_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::mydb::_SetResp_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::mydb::_Entry_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::mydb::_EntryKey_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::mydb::_EntryValue_default_instance_),
 };
 
 const char descriptor_table_protodef_my_5fdb_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
-  "\n\013my_db.proto\022\004mydb\"\027\n\007PutResp\022\014\n\004code\030\001"
+  "\n\013my_db.proto\022\004mydb\"\027\n\007SetResp\022\014\n\004code\030\001"
   " \001(\003\"O\n\005Entry\022 \n\010entryKey\030\001 \001(\0132\016.mydb.E"
   "ntryKey\022$\n\nentryValue\030\002 \001(\0132\020.mydb.Entry"
-  "Value\"\025\n\010EntryKey\022\t\n\001v\030\001 \001(\014\"\027\n\nEntryVal"
-  "ue\022\t\n\001v\030\001 \001(\0142V\n\004MyDB\022)\n\003Get\022\016.mydb.Entr"
-  "yKey\032\020.mydb.EntryValue\"\000\022#\n\003Put\022\013.mydb.E"
-  "ntry\032\r.mydb.PutResp\"\000B\025\n\013binhct.mydbB\004My"
-  "DBP\001b\006proto3"
+  "Value\"\031\n\010EntryKey\022\r\n\005value\030\001 \001(\014\"\033\n\nEntr"
+  "yValue\022\r\n\005value\030\001 \001(\0142V\n\004MyDB\022)\n\003Get\022\016.m"
+  "ydb.EntryKey\032\020.mydb.EntryValue\"\000\022#\n\003Set\022"
+  "\013.mydb.Entry\032\r.mydb.SetResp\"\000B\025\n\013binhct."
+  "mydbB\004MyDBP\001b\006proto3"
   ;
 static ::PROTOBUF_NAMESPACE_ID::internal::once_flag descriptor_table_my_5fdb_2eproto_once;
 const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_my_5fdb_2eproto = {
-  false, false, 292, descriptor_table_protodef_my_5fdb_2eproto, "my_db.proto", 
+  false, false, 300, descriptor_table_protodef_my_5fdb_2eproto, "my_db.proto", 
   &descriptor_table_my_5fdb_2eproto_once, nullptr, 0, 4,
   schemas, file_default_instances, TableStruct_my_5fdb_2eproto::offsets,
   file_level_metadata_my_5fdb_2eproto, file_level_enum_descriptors_my_5fdb_2eproto, file_level_service_descriptors_my_5fdb_2eproto,
@@ -143,53 +143,53 @@ namespace mydb {
 
 // ===================================================================
 
-class PutResp::_Internal {
+class SetResp::_Internal {
  public:
 };
 
-PutResp::PutResp(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+SetResp::SetResp(::PROTOBUF_NAMESPACE_ID::Arena* arena,
                          bool is_message_owned)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
   SharedCtor();
   if (!is_message_owned) {
     RegisterArenaDtor(arena);
   }
-  // @@protoc_insertion_point(arena_constructor:mydb.PutResp)
+  // @@protoc_insertion_point(arena_constructor:mydb.SetResp)
 }
-PutResp::PutResp(const PutResp& from)
+SetResp::SetResp(const SetResp& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   code_ = from.code_;
-  // @@protoc_insertion_point(copy_constructor:mydb.PutResp)
+  // @@protoc_insertion_point(copy_constructor:mydb.SetResp)
 }
 
-inline void PutResp::SharedCtor() {
+inline void SetResp::SharedCtor() {
 code_ = int64_t{0};
 }
 
-PutResp::~PutResp() {
-  // @@protoc_insertion_point(destructor:mydb.PutResp)
+SetResp::~SetResp() {
+  // @@protoc_insertion_point(destructor:mydb.SetResp)
   if (GetArenaForAllocation() != nullptr) return;
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-inline void PutResp::SharedDtor() {
+inline void SetResp::SharedDtor() {
   GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
 }
 
-void PutResp::ArenaDtor(void* object) {
-  PutResp* _this = reinterpret_cast< PutResp* >(object);
+void SetResp::ArenaDtor(void* object) {
+  SetResp* _this = reinterpret_cast< SetResp* >(object);
   (void)_this;
 }
-void PutResp::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
+void SetResp::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
 }
-void PutResp::SetCachedSize(int size) const {
+void SetResp::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
 
-void PutResp::Clear() {
-// @@protoc_insertion_point(message_clear_start:mydb.PutResp)
+void SetResp::Clear() {
+// @@protoc_insertion_point(message_clear_start:mydb.SetResp)
   uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -198,7 +198,7 @@ void PutResp::Clear() {
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* PutResp::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* SetResp::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
     uint32_t tag;
@@ -235,9 +235,9 @@ failure:
 #undef CHK_
 }
 
-uint8_t* PutResp::_InternalSerialize(
+uint8_t* SetResp::_InternalSerialize(
     uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:mydb.PutResp)
+  // @@protoc_insertion_point(serialize_to_array_start:mydb.SetResp)
   uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -251,12 +251,12 @@ uint8_t* PutResp::_InternalSerialize(
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:mydb.PutResp)
+  // @@protoc_insertion_point(serialize_to_array_end:mydb.SetResp)
   return target;
 }
 
-size_t PutResp::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:mydb.PutResp)
+size_t SetResp::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:mydb.SetResp)
   size_t total_size = 0;
 
   uint32_t cached_has_bits = 0;
@@ -271,21 +271,21 @@ size_t PutResp::ByteSizeLong() const {
   return MaybeComputeUnknownFieldsSize(total_size, &_cached_size_);
 }
 
-const ::PROTOBUF_NAMESPACE_ID::Message::ClassData PutResp::_class_data_ = {
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SetResp::_class_data_ = {
     ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSizeCheck,
-    PutResp::MergeImpl
+    SetResp::MergeImpl
 };
-const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*PutResp::GetClassData() const { return &_class_data_; }
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SetResp::GetClassData() const { return &_class_data_; }
 
-void PutResp::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to,
+void SetResp::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to,
                       const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-  static_cast<PutResp *>(to)->MergeFrom(
-      static_cast<const PutResp &>(from));
+  static_cast<SetResp *>(to)->MergeFrom(
+      static_cast<const SetResp &>(from));
 }
 
 
-void PutResp::MergeFrom(const PutResp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:mydb.PutResp)
+void SetResp::MergeFrom(const SetResp& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:mydb.SetResp)
   GOOGLE_DCHECK_NE(&from, this);
   uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -296,24 +296,24 @@ void PutResp::MergeFrom(const PutResp& from) {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
-void PutResp::CopyFrom(const PutResp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:mydb.PutResp)
+void SetResp::CopyFrom(const SetResp& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:mydb.SetResp)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-bool PutResp::IsInitialized() const {
+bool SetResp::IsInitialized() const {
   return true;
 }
 
-void PutResp::InternalSwap(PutResp* other) {
+void SetResp::InternalSwap(SetResp* other) {
   using std::swap;
   _internal_metadata_.InternalSwap(&other->_internal_metadata_);
   swap(code_, other->code_);
 }
 
-::PROTOBUF_NAMESPACE_ID::Metadata PutResp::GetMetadata() const {
+::PROTOBUF_NAMESPACE_ID::Metadata SetResp::GetMetadata() const {
   return ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(
       &descriptor_table_my_5fdb_2eproto_getter, &descriptor_table_my_5fdb_2eproto_once,
       file_level_metadata_my_5fdb_2eproto[0]);
@@ -581,21 +581,21 @@ EntryKey::EntryKey(::PROTOBUF_NAMESPACE_ID::Arena* arena,
 EntryKey::EntryKey(const EntryKey& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  v_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  value_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
-    v_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
+    value_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
   #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
-  if (!from._internal_v().empty()) {
-    v_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_v(), 
+  if (!from._internal_value().empty()) {
+    value_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_value(), 
       GetArenaForAllocation());
   }
   // @@protoc_insertion_point(copy_constructor:mydb.EntryKey)
 }
 
 inline void EntryKey::SharedCtor() {
-v_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+value_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
-  v_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
+  value_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
 #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
@@ -608,7 +608,7 @@ EntryKey::~EntryKey() {
 
 inline void EntryKey::SharedDtor() {
   GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
-  v_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  value_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 
 void EntryKey::ArenaDtor(void* object) {
@@ -627,7 +627,7 @@ void EntryKey::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  v_.ClearToEmpty();
+  value_.ClearToEmpty();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
@@ -637,10 +637,10 @@ const char* EntryKey::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::i
     uint32_t tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     switch (tag >> 3) {
-      // bytes v = 1;
+      // bytes value = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
-          auto str = _internal_mutable_v();
+          auto str = _internal_mutable_value();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
         } else
@@ -675,10 +675,10 @@ uint8_t* EntryKey::_InternalSerialize(
   uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // bytes v = 1;
-  if (!this->_internal_v().empty()) {
+  // bytes value = 1;
+  if (!this->_internal_value().empty()) {
     target = stream->WriteBytesMaybeAliased(
-        1, this->_internal_v(), target);
+        1, this->_internal_value(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -697,11 +697,11 @@ size_t EntryKey::ByteSizeLong() const {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // bytes v = 1;
-  if (!this->_internal_v().empty()) {
+  // bytes value = 1;
+  if (!this->_internal_value().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
-        this->_internal_v());
+        this->_internal_value());
   }
 
   return MaybeComputeUnknownFieldsSize(total_size, &_cached_size_);
@@ -726,8 +726,8 @@ void EntryKey::MergeFrom(const EntryKey& from) {
   uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (!from._internal_v().empty()) {
-    _internal_set_v(from._internal_v());
+  if (!from._internal_value().empty()) {
+    _internal_set_value(from._internal_value());
   }
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
@@ -750,8 +750,8 @@ void EntryKey::InternalSwap(EntryKey* other) {
   _internal_metadata_.InternalSwap(&other->_internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
       &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
-      &v_, lhs_arena,
-      &other->v_, rhs_arena
+      &value_, lhs_arena,
+      &other->value_, rhs_arena
   );
 }
 
@@ -779,21 +779,21 @@ EntryValue::EntryValue(::PROTOBUF_NAMESPACE_ID::Arena* arena,
 EntryValue::EntryValue(const EntryValue& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  v_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  value_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
   #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
-    v_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
+    value_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
   #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
-  if (!from._internal_v().empty()) {
-    v_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_v(), 
+  if (!from._internal_value().empty()) {
+    value_.Set(::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::EmptyDefault{}, from._internal_value(), 
       GetArenaForAllocation());
   }
   // @@protoc_insertion_point(copy_constructor:mydb.EntryValue)
 }
 
 inline void EntryValue::SharedCtor() {
-v_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+value_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
-  v_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
+  value_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), "", GetArenaForAllocation());
 #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
@@ -806,7 +806,7 @@ EntryValue::~EntryValue() {
 
 inline void EntryValue::SharedDtor() {
   GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
-  v_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  value_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
 }
 
 void EntryValue::ArenaDtor(void* object) {
@@ -825,7 +825,7 @@ void EntryValue::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  v_.ClearToEmpty();
+  value_.ClearToEmpty();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
@@ -835,10 +835,10 @@ const char* EntryValue::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID:
     uint32_t tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     switch (tag >> 3) {
-      // bytes v = 1;
+      // bytes value = 1;
       case 1:
         if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
-          auto str = _internal_mutable_v();
+          auto str = _internal_mutable_value();
           ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
         } else
@@ -873,10 +873,10 @@ uint8_t* EntryValue::_InternalSerialize(
   uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // bytes v = 1;
-  if (!this->_internal_v().empty()) {
+  // bytes value = 1;
+  if (!this->_internal_value().empty()) {
     target = stream->WriteBytesMaybeAliased(
-        1, this->_internal_v(), target);
+        1, this->_internal_value(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -895,11 +895,11 @@ size_t EntryValue::ByteSizeLong() const {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // bytes v = 1;
-  if (!this->_internal_v().empty()) {
+  // bytes value = 1;
+  if (!this->_internal_value().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
-        this->_internal_v());
+        this->_internal_value());
   }
 
   return MaybeComputeUnknownFieldsSize(total_size, &_cached_size_);
@@ -924,8 +924,8 @@ void EntryValue::MergeFrom(const EntryValue& from) {
   uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (!from._internal_v().empty()) {
-    _internal_set_v(from._internal_v());
+  if (!from._internal_value().empty()) {
+    _internal_set_value(from._internal_value());
   }
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
@@ -948,8 +948,8 @@ void EntryValue::InternalSwap(EntryValue* other) {
   _internal_metadata_.InternalSwap(&other->_internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
       &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(),
-      &v_, lhs_arena,
-      &other->v_, rhs_arena
+      &value_, lhs_arena,
+      &other->value_, rhs_arena
   );
 }
 
@@ -962,8 +962,8 @@ void EntryValue::InternalSwap(EntryValue* other) {
 // @@protoc_insertion_point(namespace_scope)
 }  // namespace mydb
 PROTOBUF_NAMESPACE_OPEN
-template<> PROTOBUF_NOINLINE ::mydb::PutResp* Arena::CreateMaybeMessage< ::mydb::PutResp >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::mydb::PutResp >(arena);
+template<> PROTOBUF_NOINLINE ::mydb::SetResp* Arena::CreateMaybeMessage< ::mydb::SetResp >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::mydb::SetResp >(arena);
 }
 template<> PROTOBUF_NOINLINE ::mydb::Entry* Arena::CreateMaybeMessage< ::mydb::Entry >(Arena* arena) {
   return Arena::CreateMessageInternal< ::mydb::Entry >(arena);

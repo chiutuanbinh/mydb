@@ -3,3 +3,5 @@ poco*
 tkrzw*
 bazel*
 .bazelignore
+build
+lib

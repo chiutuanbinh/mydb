@@ -3,18 +3,32 @@ syntax = "proto3";
 option java_multiple_files = true;
 option java_package = "binhct.mydb";
 option java_outer_classname = "MyDB";
-
+option go_package = "github.com/chiutuanbinh/mydb";
 package mydb;
 
 // Interface exported by the server.
 service MyDB {
   rpc Get(EntryKey) returns (EntryValue) {}
-  rpc Put(Entry) returns (PutResp){}
+  rpc MGet(MEntryKey) returns (MEntryValue){}
+  rpc Set(Entry) returns (SetResp){}
+  rpc Del(EntryKey) returns (DelResp){}
 }
 
 
-message PutResp{
+message SetResp{
   int64 code =1;
+}
+
+message DelResp{
+  int64 code =1;
+}
+
+message MEntryKey {
+  repeated EntryKey entryKey = 1;
+}
+
+message MEntryValue {
+  repeated EntryValue entryValue = 1;
 }
 
 message Entry{
@@ -22,8 +36,8 @@ message Entry{
   EntryValue entryValue =2;
 }
 message EntryKey{
-  bytes v =1;
+  bytes value =1;
 }
 message EntryValue{
-  bytes v =1;
+  bytes value =1;
 }
