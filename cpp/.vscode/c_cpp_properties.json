@@ -13,7 +13,8 @@
             "includePath": [
                 "${myDefaultIncludePath}",
                 "${workspaceFolder}/main/proto",
-                "${workspaceFolder}/main/grpc"
+                "${workspaceFolder}/main/grpc",
+                "${workspaceFolder}/main/poco"
             ],
             "defines": [
                 "FOO",

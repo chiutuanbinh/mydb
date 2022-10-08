@@ -7,29 +7,35 @@
 #include <my_db.grpc.pb.h>
 #include <my_db.pb.h>
 
+void foo(std::unique_ptr<mydb::MyDB::Stub> &stub){
+    for (int i = 0; i < 10000; ++i){
+        grpc::ClientContext ctx;
+        mydb::EntryKey ek;
+        ek.set_value(std::to_string(i));
+        mydb::EntryValue ev;
+        ev.set_value("v" + std::to_string(i));
+        mydb::Entry e ;
+        e.mutable_entrykey()->CopyFrom(ek);
+        e.mutable_entryvalue()->CopyFrom(ev);
+        mydb::SetResp sr;
+        grpc::Status status = stub->Set(&ctx, e, &sr);
+    }
+
+    for (int i = 0; i < 10000; ++i){
+        grpc::ClientContext ctx;
+        mydb::EntryKey ek;
+        ek.set_value(std::to_string(i));
+        mydb::EntryValue sr;
+        grpc::Status status = stub->Get(&ctx, ek, &sr);
+        // std::cout << sr.value() << std::endl;
+    }
+
+}
+
 int main(int argc, char **argv)
 {
     std::shared_ptr<grpc::Channel> channel = grpc::CreateChannel("localhost:50051", grpc::InsecureChannelCredentials());
     std::unique_ptr<mydb::MyDB::Stub> stub(mydb::MyDB::NewStub(channel));
-    grpc::ClientContext ctx;
-    mydb::EntryKey ek;
-    mydb::EntryValue resp;
-    ek.set_value("KK");
-    grpc::Status status = stub->Get(&ctx, ek, &resp);
-    std::cout << status.error_code() << ' ' << resp.value() << std::endl;
-    mydb::Entry e;
-    mydb::EntryValue ev;
-    ev.set_value("THIS IS VALUE");
-    e.mutable_entrykey()->CopyFrom(ek);
-    e.mutable_entryvalue()->CopyFrom(ev);
-    mydb::SetResp sr;
-    std::cout << "YUP" << std::endl;
-    grpc::ClientContext ctx2;
-    status = stub->Set(&ctx2, e, &sr);
-    std::cout << status.error_code() << ' ' << sr.code() << std::endl;
-
-    grpc::ClientContext ctx3;
-    status = stub->Get(&ctx3, ek, &resp);
-    std::cout << status.error_code() << ' ' << resp.value() << std::endl;
+    foo(stub);
     return 0;
 }

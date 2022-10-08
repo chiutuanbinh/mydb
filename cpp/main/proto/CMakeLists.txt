@@ -1,6 +1,6 @@
 add_library(proto my_db.grpc.pb.cc my_db.pb.cc)
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../lib/grpc/lib/cmake/grpc")
-list(APPEND CMAKE_PREFIX_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../lib/grpc/lib/cmake/protobuf")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_SOURCE_DIR}/lib/grpc/lib/cmake/grpc")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_SOURCE_DIR}/lib/grpc/lib/cmake/protobuf")
 find_package(Protobuf CONFIG REQUIRED)
 find_package(gRPC CONFIG REQUIRED)
 target_link_libraries(proto gRPC::grpc++)
