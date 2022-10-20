@@ -5,9 +5,10 @@
 #include <Poco/Runnable.h>
 #include <Poco/Thread.h>
 #include <Poco/Logger.h>
-#include <tkrzw_dbm_hash.h>
+
 #include "my_db.grpc.pb.h"
 #include "my_db.pb.h"
+#include "data.hpp"
 
 using Poco::Runnable;
 using Poco::Thread;
@@ -22,16 +23,16 @@ using mydb::MyDB;
 using mydb::Entry;
 using mydb::EntryKey;
 using mydb::EntryValue;
-using mydb::SetResp;
 
 class DServerHandler final : public MyDB::Service
 {
 public:
     DServerHandler(const std::string& dbFile);
-    Status Get(ServerContext *context, const EntryKey *request, EntryValue *response) override;
-    Status Set(ServerContext *context, const Entry *request, SetResp *response) override;
+    Status Get(ServerContext *context, const EntryKey *request, Entry *response) override;
+    Status Set(ServerContext *context, const Entry *request, EntryKey *response) override;
 private:
-    tkrzw::HashDBM dbm_;
+    std::unique_ptr<DataModel> dataModel_;
+    Logger& logger_;
 };
 
 class SyncDataServerEntry : public Runnable
@@ -49,7 +50,6 @@ class SyncDataServer final : public Subsystem
 {
 public:
     SyncDataServer();
-    ~SyncDataServer();
     void initialize(Application &app) override;
     void uninitialize() override;
     const char* name() const  override {

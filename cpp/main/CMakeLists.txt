@@ -22,6 +22,7 @@ list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/grpc")
 list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/poco")
 add_subdirectory(proto)
 add_subdirectory(data_server)
+add_subdirectory(model)
 # should we use our own math functions
 add_executable(server server.cpp)
 add_executable(client client.cpp)

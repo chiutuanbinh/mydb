@@ -46,7 +46,7 @@ struct TableStruct_my_5fdb_2eproto {
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
   static const ::PROTOBUF_NAMESPACE_ID::internal::AuxiliaryParseTableField aux[]
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
-  static const ::PROTOBUF_NAMESPACE_ID::internal::ParseTable schema[4]
+  static const ::PROTOBUF_NAMESPACE_ID::internal::ParseTable schema[5]
     PROTOBUF_SECTION_VARIABLE(protodesc_cold);
   static const ::PROTOBUF_NAMESPACE_ID::internal::FieldMetadata field_metadata[];
   static const ::PROTOBUF_NAMESPACE_ID::internal::SerializationTable serialization_table[];
@@ -63,38 +63,42 @@ extern EntryKeyDefaultTypeInternal _EntryKey_default_instance_;
 class EntryValue;
 struct EntryValueDefaultTypeInternal;
 extern EntryValueDefaultTypeInternal _EntryValue_default_instance_;
-class SetResp;
-struct SetRespDefaultTypeInternal;
-extern SetRespDefaultTypeInternal _SetResp_default_instance_;
+class MEntryKey;
+struct MEntryKeyDefaultTypeInternal;
+extern MEntryKeyDefaultTypeInternal _MEntryKey_default_instance_;
+class MEntryValue;
+struct MEntryValueDefaultTypeInternal;
+extern MEntryValueDefaultTypeInternal _MEntryValue_default_instance_;
 }  // namespace mydb
 PROTOBUF_NAMESPACE_OPEN
 template<> ::mydb::Entry* Arena::CreateMaybeMessage<::mydb::Entry>(Arena*);
 template<> ::mydb::EntryKey* Arena::CreateMaybeMessage<::mydb::EntryKey>(Arena*);
 template<> ::mydb::EntryValue* Arena::CreateMaybeMessage<::mydb::EntryValue>(Arena*);
-template<> ::mydb::SetResp* Arena::CreateMaybeMessage<::mydb::SetResp>(Arena*);
+template<> ::mydb::MEntryKey* Arena::CreateMaybeMessage<::mydb::MEntryKey>(Arena*);
+template<> ::mydb::MEntryValue* Arena::CreateMaybeMessage<::mydb::MEntryValue>(Arena*);
 PROTOBUF_NAMESPACE_CLOSE
 namespace mydb {
 
 // ===================================================================
 
-class SetResp final :
-    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:mydb.SetResp) */ {
+class MEntryKey final :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:mydb.MEntryKey) */ {
  public:
-  inline SetResp() : SetResp(nullptr) {}
-  ~SetResp() override;
-  explicit constexpr SetResp(::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized);
+  inline MEntryKey() : MEntryKey(nullptr) {}
+  ~MEntryKey() override;
+  explicit constexpr MEntryKey(::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized);
 
-  SetResp(const SetResp& from);
-  SetResp(SetResp&& from) noexcept
-    : SetResp() {
+  MEntryKey(const MEntryKey& from);
+  MEntryKey(MEntryKey&& from) noexcept
+    : MEntryKey() {
     *this = ::std::move(from);
   }
 
-  inline SetResp& operator=(const SetResp& from) {
+  inline MEntryKey& operator=(const MEntryKey& from) {
     CopyFrom(from);
     return *this;
   }
-  inline SetResp& operator=(SetResp&& from) noexcept {
+  inline MEntryKey& operator=(MEntryKey&& from) noexcept {
     if (this == &from) return *this;
     if (GetOwningArena() == from.GetOwningArena()
   #ifdef PROTOBUF_FORCE_COPY_IN_MOVE
@@ -117,20 +121,20 @@ class SetResp final :
   static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
     return default_instance().GetMetadata().reflection;
   }
-  static const SetResp& default_instance() {
+  static const MEntryKey& default_instance() {
     return *internal_default_instance();
   }
-  static inline const SetResp* internal_default_instance() {
-    return reinterpret_cast<const SetResp*>(
-               &_SetResp_default_instance_);
+  static inline const MEntryKey* internal_default_instance() {
+    return reinterpret_cast<const MEntryKey*>(
+               &_MEntryKey_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
     0;
 
-  friend void swap(SetResp& a, SetResp& b) {
+  friend void swap(MEntryKey& a, MEntryKey& b) {
     a.Swap(&b);
   }
-  inline void Swap(SetResp* other) {
+  inline void Swap(MEntryKey* other) {
     if (other == this) return;
   #ifdef PROTOBUF_FORCE_COPY_IN_SWAP
     if (GetOwningArena() != nullptr &&
@@ -143,7 +147,7 @@ class SetResp final :
       ::PROTOBUF_NAMESPACE_ID::internal::GenericSwap(this, other);
     }
   }
-  void UnsafeArenaSwap(SetResp* other) {
+  void UnsafeArenaSwap(MEntryKey* other) {
     if (other == this) return;
     GOOGLE_DCHECK(GetOwningArena() == other->GetOwningArena());
     InternalSwap(other);
@@ -151,13 +155,13 @@ class SetResp final :
 
   // implements Message ----------------------------------------------
 
-  SetResp* New(::PROTOBUF_NAMESPACE_ID::Arena* arena = nullptr) const final {
-    return CreateMaybeMessage<SetResp>(arena);
+  MEntryKey* New(::PROTOBUF_NAMESPACE_ID::Arena* arena = nullptr) const final {
+    return CreateMaybeMessage<MEntryKey>(arena);
   }
   using ::PROTOBUF_NAMESPACE_ID::Message::CopyFrom;
-  void CopyFrom(const SetResp& from);
+  void CopyFrom(const MEntryKey& from);
   using ::PROTOBUF_NAMESPACE_ID::Message::MergeFrom;
-  void MergeFrom(const SetResp& from);
+  void MergeFrom(const MEntryKey& from);
   private:
   static void MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to, const ::PROTOBUF_NAMESPACE_ID::Message& from);
   public:
@@ -174,15 +178,15 @@ class SetResp final :
   void SharedCtor();
   void SharedDtor();
   void SetCachedSize(int size) const final;
-  void InternalSwap(SetResp* other);
+  void InternalSwap(MEntryKey* other);
 
   private:
   friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
   static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
-    return "mydb.SetResp";
+    return "mydb.MEntryKey";
   }
   protected:
-  explicit SetResp(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+  explicit MEntryKey(::PROTOBUF_NAMESPACE_ID::Arena* arena,
                        bool is_message_owned = false);
   private:
   static void ArenaDtor(void* object);
@@ -199,25 +203,189 @@ class SetResp final :
   // accessors -------------------------------------------------------
 
   enum : int {
-    kCodeFieldNumber = 1,
+    kEntryKeyFieldNumber = 1,
   };
-  // int64 code = 1;
-  void clear_code();
-  int64_t code() const;
-  void set_code(int64_t value);
+  // repeated .mydb.EntryKey entryKey = 1;
+  int entrykey_size() const;
   private:
-  int64_t _internal_code() const;
-  void _internal_set_code(int64_t value);
+  int _internal_entrykey_size() const;
   public:
+  void clear_entrykey();
+  ::mydb::EntryKey* mutable_entrykey(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::mydb::EntryKey >*
+      mutable_entrykey();
+  private:
+  const ::mydb::EntryKey& _internal_entrykey(int index) const;
+  ::mydb::EntryKey* _internal_add_entrykey();
+  public:
+  const ::mydb::EntryKey& entrykey(int index) const;
+  ::mydb::EntryKey* add_entrykey();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::mydb::EntryKey >&
+      entrykey() const;
 
-  // @@protoc_insertion_point(class_scope:mydb.SetResp)
+  // @@protoc_insertion_point(class_scope:mydb.MEntryKey)
  private:
   class _Internal;
 
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
-  int64_t code_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::mydb::EntryKey > entrykey_;
+  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
+  friend struct ::TableStruct_my_5fdb_2eproto;
+};
+// -------------------------------------------------------------------
+
+class MEntryValue final :
+    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:mydb.MEntryValue) */ {
+ public:
+  inline MEntryValue() : MEntryValue(nullptr) {}
+  ~MEntryValue() override;
+  explicit constexpr MEntryValue(::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized);
+
+  MEntryValue(const MEntryValue& from);
+  MEntryValue(MEntryValue&& from) noexcept
+    : MEntryValue() {
+    *this = ::std::move(from);
+  }
+
+  inline MEntryValue& operator=(const MEntryValue& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  inline MEntryValue& operator=(MEntryValue&& from) noexcept {
+    if (this == &from) return *this;
+    if (GetOwningArena() == from.GetOwningArena()
+  #ifdef PROTOBUF_FORCE_COPY_IN_MOVE
+        && GetOwningArena() != nullptr
+  #endif  // !PROTOBUF_FORCE_COPY_IN_MOVE
+    ) {
+      InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
+    return GetDescriptor();
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
+    return default_instance().GetMetadata().descriptor;
+  }
+  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
+    return default_instance().GetMetadata().reflection;
+  }
+  static const MEntryValue& default_instance() {
+    return *internal_default_instance();
+  }
+  static inline const MEntryValue* internal_default_instance() {
+    return reinterpret_cast<const MEntryValue*>(
+               &_MEntryValue_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    1;
+
+  friend void swap(MEntryValue& a, MEntryValue& b) {
+    a.Swap(&b);
+  }
+  inline void Swap(MEntryValue* other) {
+    if (other == this) return;
+  #ifdef PROTOBUF_FORCE_COPY_IN_SWAP
+    if (GetOwningArena() != nullptr &&
+        GetOwningArena() == other->GetOwningArena()) {
+   #else  // PROTOBUF_FORCE_COPY_IN_SWAP
+    if (GetOwningArena() == other->GetOwningArena()) {
+  #endif  // !PROTOBUF_FORCE_COPY_IN_SWAP
+      InternalSwap(other);
+    } else {
+      ::PROTOBUF_NAMESPACE_ID::internal::GenericSwap(this, other);
+    }
+  }
+  void UnsafeArenaSwap(MEntryValue* other) {
+    if (other == this) return;
+    GOOGLE_DCHECK(GetOwningArena() == other->GetOwningArena());
+    InternalSwap(other);
+  }
+
+  // implements Message ----------------------------------------------
+
+  MEntryValue* New(::PROTOBUF_NAMESPACE_ID::Arena* arena = nullptr) const final {
+    return CreateMaybeMessage<MEntryValue>(arena);
+  }
+  using ::PROTOBUF_NAMESPACE_ID::Message::CopyFrom;
+  void CopyFrom(const MEntryValue& from);
+  using ::PROTOBUF_NAMESPACE_ID::Message::MergeFrom;
+  void MergeFrom(const MEntryValue& from);
+  private:
+  static void MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to, const ::PROTOBUF_NAMESPACE_ID::Message& from);
+  public:
+  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  const char* _InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;
+  uint8_t* _InternalSerialize(
+      uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(MEntryValue* other);
+
+  private:
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::AnyMetadata;
+  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {
+    return "mydb.MEntryValue";
+  }
+  protected:
+  explicit MEntryValue(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                       bool is_message_owned = false);
+  private:
+  static void ArenaDtor(void* object);
+  inline void RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena* arena);
+  public:
+
+  static const ClassData _class_data_;
+  const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*GetClassData() const final;
+
+  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  enum : int {
+    kEntryValueFieldNumber = 1,
+  };
+  // repeated .mydb.EntryValue entryValue = 1;
+  int entryvalue_size() const;
+  private:
+  int _internal_entryvalue_size() const;
+  public:
+  void clear_entryvalue();
+  ::mydb::EntryValue* mutable_entryvalue(int index);
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::mydb::EntryValue >*
+      mutable_entryvalue();
+  private:
+  const ::mydb::EntryValue& _internal_entryvalue(int index) const;
+  ::mydb::EntryValue* _internal_add_entryvalue();
+  public:
+  const ::mydb::EntryValue& entryvalue(int index) const;
+  ::mydb::EntryValue* add_entryvalue();
+  const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::mydb::EntryValue >&
+      entryvalue() const;
+
+  // @@protoc_insertion_point(class_scope:mydb.MEntryValue)
+ private:
+  class _Internal;
+
+  template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
+  typedef void InternalArenaConstructable_;
+  typedef void DestructorSkippable_;
+  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::mydb::EntryValue > entryvalue_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_my_5fdb_2eproto;
 };
@@ -271,7 +439,7 @@ class Entry final :
                &_Entry_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    1;
+    2;
 
   friend void swap(Entry& a, Entry& b) {
     a.Swap(&b);
@@ -446,7 +614,7 @@ class EntryKey final :
                &_EntryKey_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    2;
+    3;
 
   friend void swap(EntryKey& a, EntryKey& b) {
     a.Swap(&b);
@@ -597,7 +765,7 @@ class EntryValue final :
                &_EntryValue_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    3;
+    4;
 
   friend void swap(EntryValue& a, EntryValue& b) {
     a.Swap(&b);
@@ -707,26 +875,90 @@ class EntryValue final :
   #pragma GCC diagnostic push
   #pragma GCC diagnostic ignored "-Wstrict-aliasing"
 #endif  // __GNUC__
-// SetResp
+// MEntryKey
 
-// int64 code = 1;
-inline void SetResp::clear_code() {
-  code_ = int64_t{0};
+// repeated .mydb.EntryKey entryKey = 1;
+inline int MEntryKey::_internal_entrykey_size() const {
+  return entrykey_.size();
 }
-inline int64_t SetResp::_internal_code() const {
-  return code_;
+inline int MEntryKey::entrykey_size() const {
+  return _internal_entrykey_size();
 }
-inline int64_t SetResp::code() const {
-  // @@protoc_insertion_point(field_get:mydb.SetResp.code)
-  return _internal_code();
+inline void MEntryKey::clear_entrykey() {
+  entrykey_.Clear();
 }
-inline void SetResp::_internal_set_code(int64_t value) {
-  
-  code_ = value;
+inline ::mydb::EntryKey* MEntryKey::mutable_entrykey(int index) {
+  // @@protoc_insertion_point(field_mutable:mydb.MEntryKey.entryKey)
+  return entrykey_.Mutable(index);
 }
-inline void SetResp::set_code(int64_t value) {
-  _internal_set_code(value);
-  // @@protoc_insertion_point(field_set:mydb.SetResp.code)
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::mydb::EntryKey >*
+MEntryKey::mutable_entrykey() {
+  // @@protoc_insertion_point(field_mutable_list:mydb.MEntryKey.entryKey)
+  return &entrykey_;
+}
+inline const ::mydb::EntryKey& MEntryKey::_internal_entrykey(int index) const {
+  return entrykey_.Get(index);
+}
+inline const ::mydb::EntryKey& MEntryKey::entrykey(int index) const {
+  // @@protoc_insertion_point(field_get:mydb.MEntryKey.entryKey)
+  return _internal_entrykey(index);
+}
+inline ::mydb::EntryKey* MEntryKey::_internal_add_entrykey() {
+  return entrykey_.Add();
+}
+inline ::mydb::EntryKey* MEntryKey::add_entrykey() {
+  ::mydb::EntryKey* _add = _internal_add_entrykey();
+  // @@protoc_insertion_point(field_add:mydb.MEntryKey.entryKey)
+  return _add;
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::mydb::EntryKey >&
+MEntryKey::entrykey() const {
+  // @@protoc_insertion_point(field_list:mydb.MEntryKey.entryKey)
+  return entrykey_;
+}
+
+// -------------------------------------------------------------------
+
+// MEntryValue
+
+// repeated .mydb.EntryValue entryValue = 1;
+inline int MEntryValue::_internal_entryvalue_size() const {
+  return entryvalue_.size();
+}
+inline int MEntryValue::entryvalue_size() const {
+  return _internal_entryvalue_size();
+}
+inline void MEntryValue::clear_entryvalue() {
+  entryvalue_.Clear();
+}
+inline ::mydb::EntryValue* MEntryValue::mutable_entryvalue(int index) {
+  // @@protoc_insertion_point(field_mutable:mydb.MEntryValue.entryValue)
+  return entryvalue_.Mutable(index);
+}
+inline ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::mydb::EntryValue >*
+MEntryValue::mutable_entryvalue() {
+  // @@protoc_insertion_point(field_mutable_list:mydb.MEntryValue.entryValue)
+  return &entryvalue_;
+}
+inline const ::mydb::EntryValue& MEntryValue::_internal_entryvalue(int index) const {
+  return entryvalue_.Get(index);
+}
+inline const ::mydb::EntryValue& MEntryValue::entryvalue(int index) const {
+  // @@protoc_insertion_point(field_get:mydb.MEntryValue.entryValue)
+  return _internal_entryvalue(index);
+}
+inline ::mydb::EntryValue* MEntryValue::_internal_add_entryvalue() {
+  return entryvalue_.Add();
+}
+inline ::mydb::EntryValue* MEntryValue::add_entryvalue() {
+  ::mydb::EntryValue* _add = _internal_add_entryvalue();
+  // @@protoc_insertion_point(field_add:mydb.MEntryValue.entryValue)
+  return _add;
+}
+inline const ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField< ::mydb::EntryValue >&
+MEntryValue::entryvalue() const {
+  // @@protoc_insertion_point(field_list:mydb.MEntryValue.entryValue)
+  return entryvalue_;
 }
 
 // -------------------------------------------------------------------
@@ -1026,6 +1258,8 @@ inline void EntryValue::set_allocated_value(std::string* value) {
 #ifdef __GNUC__
   #pragma GCC diagnostic pop
 #endif  // __GNUC__
+// -------------------------------------------------------------------
+
 // -------------------------------------------------------------------
 
 // -------------------------------------------------------------------

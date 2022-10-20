@@ -17,18 +17,30 @@
 
 PROTOBUF_PRAGMA_INIT_SEG
 namespace mydb {
-constexpr SetResp::SetResp(
+constexpr MEntryKey::MEntryKey(
   ::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized)
-  : code_(int64_t{0}){}
-struct SetRespDefaultTypeInternal {
-  constexpr SetRespDefaultTypeInternal()
+  : entrykey_(){}
+struct MEntryKeyDefaultTypeInternal {
+  constexpr MEntryKeyDefaultTypeInternal()
     : _instance(::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized{}) {}
-  ~SetRespDefaultTypeInternal() {}
+  ~MEntryKeyDefaultTypeInternal() {}
   union {
-    SetResp _instance;
+    MEntryKey _instance;
   };
 };
-PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT SetRespDefaultTypeInternal _SetResp_default_instance_;
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT MEntryKeyDefaultTypeInternal _MEntryKey_default_instance_;
+constexpr MEntryValue::MEntryValue(
+  ::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized)
+  : entryvalue_(){}
+struct MEntryValueDefaultTypeInternal {
+  constexpr MEntryValueDefaultTypeInternal()
+    : _instance(::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized{}) {}
+  ~MEntryValueDefaultTypeInternal() {}
+  union {
+    MEntryValue _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT MEntryValueDefaultTypeInternal _MEntryValue_default_instance_;
 constexpr Entry::Entry(
   ::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized)
   : entrykey_(nullptr)
@@ -67,18 +79,25 @@ struct EntryValueDefaultTypeInternal {
 };
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT EntryValueDefaultTypeInternal _EntryValue_default_instance_;
 }  // namespace mydb
-static ::PROTOBUF_NAMESPACE_ID::Metadata file_level_metadata_my_5fdb_2eproto[4];
+static ::PROTOBUF_NAMESPACE_ID::Metadata file_level_metadata_my_5fdb_2eproto[5];
 static constexpr ::PROTOBUF_NAMESPACE_ID::EnumDescriptor const** file_level_enum_descriptors_my_5fdb_2eproto = nullptr;
 static constexpr ::PROTOBUF_NAMESPACE_ID::ServiceDescriptor const** file_level_service_descriptors_my_5fdb_2eproto = nullptr;
 
 const uint32_t TableStruct_my_5fdb_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::mydb::SetResp, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::mydb::MEntryKey, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
   ~0u,  // no _inlined_string_donated_
-  PROTOBUF_FIELD_OFFSET(::mydb::SetResp, code_),
+  PROTOBUF_FIELD_OFFSET(::mydb::MEntryKey, entrykey_),
+  ~0u,  // no _has_bits_
+  PROTOBUF_FIELD_OFFSET(::mydb::MEntryValue, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::mydb::MEntryValue, entryvalue_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::mydb::Entry, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -103,33 +122,38 @@ const uint32_t TableStruct_my_5fdb_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(
   PROTOBUF_FIELD_OFFSET(::mydb::EntryValue, value_),
 };
 static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, -1, sizeof(::mydb::SetResp)},
-  { 7, -1, -1, sizeof(::mydb::Entry)},
-  { 15, -1, -1, sizeof(::mydb::EntryKey)},
-  { 22, -1, -1, sizeof(::mydb::EntryValue)},
+  { 0, -1, -1, sizeof(::mydb::MEntryKey)},
+  { 7, -1, -1, sizeof(::mydb::MEntryValue)},
+  { 14, -1, -1, sizeof(::mydb::Entry)},
+  { 22, -1, -1, sizeof(::mydb::EntryKey)},
+  { 29, -1, -1, sizeof(::mydb::EntryValue)},
 };
 
 static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::mydb::_SetResp_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::mydb::_MEntryKey_default_instance_),
+  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::mydb::_MEntryValue_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::mydb::_Entry_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::mydb::_EntryKey_default_instance_),
   reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::mydb::_EntryValue_default_instance_),
 };
 
 const char descriptor_table_protodef_my_5fdb_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
-  "\n\013my_db.proto\022\004mydb\"\027\n\007SetResp\022\014\n\004code\030\001"
-  " \001(\003\"O\n\005Entry\022 \n\010entryKey\030\001 \001(\0132\016.mydb.E"
-  "ntryKey\022$\n\nentryValue\030\002 \001(\0132\020.mydb.Entry"
-  "Value\"\031\n\010EntryKey\022\r\n\005value\030\001 \001(\014\"\033\n\nEntr"
-  "yValue\022\r\n\005value\030\001 \001(\0142V\n\004MyDB\022)\n\003Get\022\016.m"
-  "ydb.EntryKey\032\020.mydb.EntryValue\"\000\022#\n\003Set\022"
-  "\013.mydb.Entry\032\r.mydb.SetResp\"\000B\025\n\013binhct."
-  "mydbB\004MyDBP\001b\006proto3"
+  "\n\013my_db.proto\022\004mydb\"-\n\tMEntryKey\022 \n\010entr"
+  "yKey\030\001 \003(\0132\016.mydb.EntryKey\"3\n\013MEntryValu"
+  "e\022$\n\nentryValue\030\001 \003(\0132\020.mydb.EntryValue\""
+  "O\n\005Entry\022 \n\010entryKey\030\001 \001(\0132\016.mydb.EntryK"
+  "ey\022$\n\nentryValue\030\002 \001(\0132\020.mydb.EntryValue"
+  "\"\031\n\010EntryKey\022\r\n\005value\030\001 \001(\014\"\033\n\nEntryValu"
+  "e\022\r\n\005value\030\001 \001(\0142R\n\004MyDB\022$\n\003Get\022\016.mydb.E"
+  "ntryKey\032\013.mydb.Entry\"\000\022$\n\003Set\022\013.mydb.Ent"
+  "ry\032\016.mydb.EntryKey\"\000B9\n\013binhct.mydbB\004MyD"
+  "BP\001Z\"github.com/chiutuanbinh/mydb/protob"
+  "\006proto3"
   ;
 static ::PROTOBUF_NAMESPACE_ID::internal::once_flag descriptor_table_my_5fdb_2eproto_once;
 const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_my_5fdb_2eproto = {
-  false, false, 300, descriptor_table_protodef_my_5fdb_2eproto, "my_db.proto", 
-  &descriptor_table_my_5fdb_2eproto_once, nullptr, 0, 4,
+  false, false, 407, descriptor_table_protodef_my_5fdb_2eproto, "my_db.proto", 
+  &descriptor_table_my_5fdb_2eproto_once, nullptr, 0, 5,
   schemas, file_default_instances, TableStruct_my_5fdb_2eproto::offsets,
   file_level_metadata_my_5fdb_2eproto, file_level_enum_descriptors_my_5fdb_2eproto, file_level_service_descriptors_my_5fdb_2eproto,
 };
@@ -143,72 +167,77 @@ namespace mydb {
 
 // ===================================================================
 
-class SetResp::_Internal {
+class MEntryKey::_Internal {
  public:
 };
 
-SetResp::SetResp(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+MEntryKey::MEntryKey(::PROTOBUF_NAMESPACE_ID::Arena* arena,
                          bool is_message_owned)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned),
+  entrykey_(arena) {
   SharedCtor();
   if (!is_message_owned) {
     RegisterArenaDtor(arena);
   }
-  // @@protoc_insertion_point(arena_constructor:mydb.SetResp)
+  // @@protoc_insertion_point(arena_constructor:mydb.MEntryKey)
 }
-SetResp::SetResp(const SetResp& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
+MEntryKey::MEntryKey(const MEntryKey& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      entrykey_(from.entrykey_) {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  code_ = from.code_;
-  // @@protoc_insertion_point(copy_constructor:mydb.SetResp)
+  // @@protoc_insertion_point(copy_constructor:mydb.MEntryKey)
 }
 
-inline void SetResp::SharedCtor() {
-code_ = int64_t{0};
+inline void MEntryKey::SharedCtor() {
 }
 
-SetResp::~SetResp() {
-  // @@protoc_insertion_point(destructor:mydb.SetResp)
+MEntryKey::~MEntryKey() {
+  // @@protoc_insertion_point(destructor:mydb.MEntryKey)
   if (GetArenaForAllocation() != nullptr) return;
   SharedDtor();
   _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-inline void SetResp::SharedDtor() {
+inline void MEntryKey::SharedDtor() {
   GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
 }
 
-void SetResp::ArenaDtor(void* object) {
-  SetResp* _this = reinterpret_cast< SetResp* >(object);
+void MEntryKey::ArenaDtor(void* object) {
+  MEntryKey* _this = reinterpret_cast< MEntryKey* >(object);
   (void)_this;
 }
-void SetResp::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
+void MEntryKey::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
 }
-void SetResp::SetCachedSize(int size) const {
+void MEntryKey::SetCachedSize(int size) const {
   _cached_size_.Set(size);
 }
 
-void SetResp::Clear() {
-// @@protoc_insertion_point(message_clear_start:mydb.SetResp)
+void MEntryKey::Clear() {
+// @@protoc_insertion_point(message_clear_start:mydb.MEntryKey)
   uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  code_ = int64_t{0};
+  entrykey_.Clear();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* SetResp::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* MEntryKey::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   while (!ctx->Done(&ptr)) {
     uint32_t tag;
     ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
     switch (tag >> 3) {
-      // int64 code = 1;
+      // repeated .mydb.EntryKey entryKey = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
-          code_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
-          CHK_(ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_entrykey(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<10>(ptr));
         } else
           goto handle_unusual;
         continue;
@@ -235,88 +264,275 @@ failure:
 #undef CHK_
 }
 
-uint8_t* SetResp::_InternalSerialize(
+uint8_t* MEntryKey::_InternalSerialize(
     uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:mydb.SetResp)
+  // @@protoc_insertion_point(serialize_to_array_start:mydb.MEntryKey)
   uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  // int64 code = 1;
-  if (this->_internal_code() != 0) {
+  // repeated .mydb.EntryKey entryKey = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_entrykey_size()); i < n; i++) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt64ToArray(1, this->_internal_code(), target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessage(1, this->_internal_entrykey(i), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:mydb.SetResp)
+  // @@protoc_insertion_point(serialize_to_array_end:mydb.MEntryKey)
   return target;
 }
 
-size_t SetResp::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:mydb.SetResp)
+size_t MEntryKey::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:mydb.MEntryKey)
   size_t total_size = 0;
 
   uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  // int64 code = 1;
-  if (this->_internal_code() != 0) {
-    total_size += ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int64SizePlusOne(this->_internal_code());
+  // repeated .mydb.EntryKey entryKey = 1;
+  total_size += 1UL * this->_internal_entrykey_size();
+  for (const auto& msg : this->entrykey_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
   return MaybeComputeUnknownFieldsSize(total_size, &_cached_size_);
 }
 
-const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SetResp::_class_data_ = {
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData MEntryKey::_class_data_ = {
     ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSizeCheck,
-    SetResp::MergeImpl
+    MEntryKey::MergeImpl
 };
-const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SetResp::GetClassData() const { return &_class_data_; }
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*MEntryKey::GetClassData() const { return &_class_data_; }
 
-void SetResp::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to,
+void MEntryKey::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to,
                       const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-  static_cast<SetResp *>(to)->MergeFrom(
-      static_cast<const SetResp &>(from));
+  static_cast<MEntryKey *>(to)->MergeFrom(
+      static_cast<const MEntryKey &>(from));
 }
 
 
-void SetResp::MergeFrom(const SetResp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:mydb.SetResp)
+void MEntryKey::MergeFrom(const MEntryKey& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:mydb.MEntryKey)
   GOOGLE_DCHECK_NE(&from, this);
   uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (from._internal_code() != 0) {
-    _internal_set_code(from._internal_code());
-  }
+  entrykey_.MergeFrom(from.entrykey_);
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
-void SetResp::CopyFrom(const SetResp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:mydb.SetResp)
+void MEntryKey::CopyFrom(const MEntryKey& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:mydb.MEntryKey)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-bool SetResp::IsInitialized() const {
+bool MEntryKey::IsInitialized() const {
   return true;
 }
 
-void SetResp::InternalSwap(SetResp* other) {
+void MEntryKey::InternalSwap(MEntryKey* other) {
   using std::swap;
   _internal_metadata_.InternalSwap(&other->_internal_metadata_);
-  swap(code_, other->code_);
+  entrykey_.InternalSwap(&other->entrykey_);
 }
 
-::PROTOBUF_NAMESPACE_ID::Metadata SetResp::GetMetadata() const {
+::PROTOBUF_NAMESPACE_ID::Metadata MEntryKey::GetMetadata() const {
   return ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(
       &descriptor_table_my_5fdb_2eproto_getter, &descriptor_table_my_5fdb_2eproto_once,
       file_level_metadata_my_5fdb_2eproto[0]);
+}
+
+// ===================================================================
+
+class MEntryValue::_Internal {
+ public:
+};
+
+MEntryValue::MEntryValue(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned),
+  entryvalue_(arena) {
+  SharedCtor();
+  if (!is_message_owned) {
+    RegisterArenaDtor(arena);
+  }
+  // @@protoc_insertion_point(arena_constructor:mydb.MEntryValue)
+}
+MEntryValue::MEntryValue(const MEntryValue& from)
+  : ::PROTOBUF_NAMESPACE_ID::Message(),
+      entryvalue_(from.entryvalue_) {
+  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  // @@protoc_insertion_point(copy_constructor:mydb.MEntryValue)
+}
+
+inline void MEntryValue::SharedCtor() {
+}
+
+MEntryValue::~MEntryValue() {
+  // @@protoc_insertion_point(destructor:mydb.MEntryValue)
+  if (GetArenaForAllocation() != nullptr) return;
+  SharedDtor();
+  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+}
+
+inline void MEntryValue::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+}
+
+void MEntryValue::ArenaDtor(void* object) {
+  MEntryValue* _this = reinterpret_cast< MEntryValue* >(object);
+  (void)_this;
+}
+void MEntryValue::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
+}
+void MEntryValue::SetCachedSize(int size) const {
+  _cached_size_.Set(size);
+}
+
+void MEntryValue::Clear() {
+// @@protoc_insertion_point(message_clear_start:mydb.MEntryValue)
+  uint32_t cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  entryvalue_.Clear();
+  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+}
+
+const char* MEntryValue::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
+  while (!ctx->Done(&ptr)) {
+    uint32_t tag;
+    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
+    switch (tag >> 3) {
+      // repeated .mydb.EntryValue entryValue = 1;
+      case 1:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(_internal_add_entryvalue(), ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<10>(ptr));
+        } else
+          goto handle_unusual;
+        continue;
+      default:
+        goto handle_unusual;
+    }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
+  }  // while
+message_done:
+  return ptr;
+failure:
+  ptr = nullptr;
+  goto message_done;
+#undef CHK_
+}
+
+uint8_t* MEntryValue::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+  // @@protoc_insertion_point(serialize_to_array_start:mydb.MEntryValue)
+  uint32_t cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .mydb.EntryValue entryValue = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->_internal_entryvalue_size()); i < n; i++) {
+    target = stream->EnsureSpace(target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
+      InternalWriteMessage(1, this->_internal_entryvalue(i), target, stream);
+  }
+
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:mydb.MEntryValue)
+  return target;
+}
+
+size_t MEntryValue::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:mydb.MEntryValue)
+  size_t total_size = 0;
+
+  uint32_t cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  // repeated .mydb.EntryValue entryValue = 1;
+  total_size += 1UL * this->_internal_entryvalue_size();
+  for (const auto& msg : this->entryvalue_) {
+    total_size +=
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
+  }
+
+  return MaybeComputeUnknownFieldsSize(total_size, &_cached_size_);
+}
+
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData MEntryValue::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSizeCheck,
+    MEntryValue::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*MEntryValue::GetClassData() const { return &_class_data_; }
+
+void MEntryValue::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to,
+                      const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+  static_cast<MEntryValue *>(to)->MergeFrom(
+      static_cast<const MEntryValue &>(from));
+}
+
+
+void MEntryValue::MergeFrom(const MEntryValue& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:mydb.MEntryValue)
+  GOOGLE_DCHECK_NE(&from, this);
+  uint32_t cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  entryvalue_.MergeFrom(from.entryvalue_);
+  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+}
+
+void MEntryValue::CopyFrom(const MEntryValue& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:mydb.MEntryValue)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool MEntryValue::IsInitialized() const {
+  return true;
+}
+
+void MEntryValue::InternalSwap(MEntryValue* other) {
+  using std::swap;
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  entryvalue_.InternalSwap(&other->entryvalue_);
+}
+
+::PROTOBUF_NAMESPACE_ID::Metadata MEntryValue::GetMetadata() const {
+  return ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(
+      &descriptor_table_my_5fdb_2eproto_getter, &descriptor_table_my_5fdb_2eproto_once,
+      file_level_metadata_my_5fdb_2eproto[1]);
 }
 
 // ===================================================================
@@ -560,7 +776,7 @@ void Entry::InternalSwap(Entry* other) {
 ::PROTOBUF_NAMESPACE_ID::Metadata Entry::GetMetadata() const {
   return ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(
       &descriptor_table_my_5fdb_2eproto_getter, &descriptor_table_my_5fdb_2eproto_once,
-      file_level_metadata_my_5fdb_2eproto[1]);
+      file_level_metadata_my_5fdb_2eproto[2]);
 }
 
 // ===================================================================
@@ -758,7 +974,7 @@ void EntryKey::InternalSwap(EntryKey* other) {
 ::PROTOBUF_NAMESPACE_ID::Metadata EntryKey::GetMetadata() const {
   return ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(
       &descriptor_table_my_5fdb_2eproto_getter, &descriptor_table_my_5fdb_2eproto_once,
-      file_level_metadata_my_5fdb_2eproto[2]);
+      file_level_metadata_my_5fdb_2eproto[3]);
 }
 
 // ===================================================================
@@ -956,14 +1172,17 @@ void EntryValue::InternalSwap(EntryValue* other) {
 ::PROTOBUF_NAMESPACE_ID::Metadata EntryValue::GetMetadata() const {
   return ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(
       &descriptor_table_my_5fdb_2eproto_getter, &descriptor_table_my_5fdb_2eproto_once,
-      file_level_metadata_my_5fdb_2eproto[3]);
+      file_level_metadata_my_5fdb_2eproto[4]);
 }
 
 // @@protoc_insertion_point(namespace_scope)
 }  // namespace mydb
 PROTOBUF_NAMESPACE_OPEN
-template<> PROTOBUF_NOINLINE ::mydb::SetResp* Arena::CreateMaybeMessage< ::mydb::SetResp >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::mydb::SetResp >(arena);
+template<> PROTOBUF_NOINLINE ::mydb::MEntryKey* Arena::CreateMaybeMessage< ::mydb::MEntryKey >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::mydb::MEntryKey >(arena);
+}
+template<> PROTOBUF_NOINLINE ::mydb::MEntryValue* Arena::CreateMaybeMessage< ::mydb::MEntryValue >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::mydb::MEntryValue >(arena);
 }
 template<> PROTOBUF_NOINLINE ::mydb::Entry* Arena::CreateMaybeMessage< ::mydb::Entry >(Arena* arena) {
   return Arena::CreateMessageInternal< ::mydb::Entry >(arena);

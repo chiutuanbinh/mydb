@@ -17,7 +17,7 @@ void foo(std::unique_ptr<mydb::MyDB::Stub> &stub){
         mydb::Entry e ;
         e.mutable_entrykey()->CopyFrom(ek);
         e.mutable_entryvalue()->CopyFrom(ev);
-        mydb::SetResp sr;
+        mydb::EntryKey sr;
         grpc::Status status = stub->Set(&ctx, e, &sr);
     }
 
@@ -25,9 +25,9 @@ void foo(std::unique_ptr<mydb::MyDB::Stub> &stub){
         grpc::ClientContext ctx;
         mydb::EntryKey ek;
         ek.set_value(std::to_string(i));
-        mydb::EntryValue sr;
+        mydb::Entry sr;
         grpc::Status status = stub->Get(&ctx, ek, &sr);
-        // std::cout << sr.value() << std::endl;
+        std::cout << sr.entrykey().value() << std::endl;
     }
 
 }

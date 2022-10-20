@@ -4,38 +4,33 @@
 using grpc::ServerBuilder;
 using grpc::Server;
 
-DServerHandler::DServerHandler(const std::string& dbFile)
+DServerHandler::DServerHandler(const std::string& dbFile):dataModel_(new DataModel(dbFile)), logger_(Logger::get("DServerHandler"))
 {
-    dbm_.Open(dbFile, true);
+    
 }
 
-Status DServerHandler::Get(ServerContext *context, const EntryKey *request, EntryValue *response)
+Status DServerHandler::Get(ServerContext *context, const EntryKey *request, Entry *response)
 {
     std::string value;
-    tkrzw::Status status = dbm_.Get(request->value(), &value);
-    response->set_value(value);
-    switch (status.GetCode())
-    {
-    case tkrzw::Status::Code::NOT_FOUND_ERROR:
-    {
-        Status gStatus(StatusCode::NOT_FOUND, status.GetMessage());
-        return gStatus;
+    int res = dataModel_->get(request->value(), value);
+    logger_.information(Poco::format("Get key %s", request->value()));
+    if (res != 0){
+        return Status(StatusCode::INTERNAL, "Internal error");
     }
-
-    default:
-        return Status::OK;
-    }
+    response->mutable_entrykey()->set_value(request->value());
+    response->mutable_entryvalue()->set_value(value);
+    return Status::OK;
 }
 
-Status DServerHandler::Set(ServerContext *context, const Entry *request, SetResp *response)
+Status DServerHandler::Set(ServerContext *context, const Entry *request, EntryKey *response)
 {
-    tkrzw::Status status = dbm_.Set(request->entrykey().value(), request->entryvalue().value());
-    if (status.IsOK())
-    {
-        return Status::OK;
+    int res  = dataModel_->set(request->entrykey().value(), request->entryvalue().value());
+    if (res != 0){
+        return Status(StatusCode::INTERNAL, "Internal error");
     }
-    Status gStatus(StatusCode::INTERNAL, status.GetMessage());
-    return gStatus;
+    response->set_value(request->entrykey().value());
+    return Status::OK;
+    
 }
 
 SyncDataServerEntry::SyncDataServerEntry():handler_("TMP.tkh"), logger_(Logger::get("SyncDataServerEntry")){
@@ -55,7 +50,6 @@ void SyncDataServerEntry::run(){
 
 SyncDataServer::SyncDataServer(){
 }   
-SyncDataServer::~SyncDataServer(){}
 
 void SyncDataServer::initialize(Application &app){
     runner_.start(entry_);

@@ -36,61 +36,61 @@ class MyDB final {
   class StubInterface {
    public:
     virtual ~StubInterface() {}
-    virtual ::grpc::Status Get(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::mydb::EntryValue* response) = 0;
-    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::EntryValue>> AsyncGet(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) {
-      return std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::EntryValue>>(AsyncGetRaw(context, request, cq));
+    virtual ::grpc::Status Get(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::mydb::Entry* response) = 0;
+    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::Entry>> AsyncGet(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) {
+      return std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::Entry>>(AsyncGetRaw(context, request, cq));
     }
-    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::EntryValue>> PrepareAsyncGet(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) {
-      return std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::EntryValue>>(PrepareAsyncGetRaw(context, request, cq));
+    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::Entry>> PrepareAsyncGet(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) {
+      return std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::Entry>>(PrepareAsyncGetRaw(context, request, cq));
     }
-    virtual ::grpc::Status Set(::grpc::ClientContext* context, const ::mydb::Entry& request, ::mydb::SetResp* response) = 0;
-    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::SetResp>> AsyncSet(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) {
-      return std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::SetResp>>(AsyncSetRaw(context, request, cq));
+    virtual ::grpc::Status Set(::grpc::ClientContext* context, const ::mydb::Entry& request, ::mydb::EntryKey* response) = 0;
+    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::EntryKey>> AsyncSet(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) {
+      return std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::EntryKey>>(AsyncSetRaw(context, request, cq));
     }
-    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::SetResp>> PrepareAsyncSet(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) {
-      return std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::SetResp>>(PrepareAsyncSetRaw(context, request, cq));
+    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::EntryKey>> PrepareAsyncSet(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) {
+      return std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::mydb::EntryKey>>(PrepareAsyncSetRaw(context, request, cq));
     }
     class async_interface {
      public:
       virtual ~async_interface() {}
-      virtual void Get(::grpc::ClientContext* context, const ::mydb::EntryKey* request, ::mydb::EntryValue* response, std::function<void(::grpc::Status)>) = 0;
-      virtual void Get(::grpc::ClientContext* context, const ::mydb::EntryKey* request, ::mydb::EntryValue* response, ::grpc::ClientUnaryReactor* reactor) = 0;
-      virtual void Set(::grpc::ClientContext* context, const ::mydb::Entry* request, ::mydb::SetResp* response, std::function<void(::grpc::Status)>) = 0;
-      virtual void Set(::grpc::ClientContext* context, const ::mydb::Entry* request, ::mydb::SetResp* response, ::grpc::ClientUnaryReactor* reactor) = 0;
+      virtual void Get(::grpc::ClientContext* context, const ::mydb::EntryKey* request, ::mydb::Entry* response, std::function<void(::grpc::Status)>) = 0;
+      virtual void Get(::grpc::ClientContext* context, const ::mydb::EntryKey* request, ::mydb::Entry* response, ::grpc::ClientUnaryReactor* reactor) = 0;
+      virtual void Set(::grpc::ClientContext* context, const ::mydb::Entry* request, ::mydb::EntryKey* response, std::function<void(::grpc::Status)>) = 0;
+      virtual void Set(::grpc::ClientContext* context, const ::mydb::Entry* request, ::mydb::EntryKey* response, ::grpc::ClientUnaryReactor* reactor) = 0;
     };
     typedef class async_interface experimental_async_interface;
     virtual class async_interface* async() { return nullptr; }
     class async_interface* experimental_async() { return async(); }
    private:
-    virtual ::grpc::ClientAsyncResponseReaderInterface< ::mydb::EntryValue>* AsyncGetRaw(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) = 0;
-    virtual ::grpc::ClientAsyncResponseReaderInterface< ::mydb::EntryValue>* PrepareAsyncGetRaw(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) = 0;
-    virtual ::grpc::ClientAsyncResponseReaderInterface< ::mydb::SetResp>* AsyncSetRaw(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) = 0;
-    virtual ::grpc::ClientAsyncResponseReaderInterface< ::mydb::SetResp>* PrepareAsyncSetRaw(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) = 0;
+    virtual ::grpc::ClientAsyncResponseReaderInterface< ::mydb::Entry>* AsyncGetRaw(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) = 0;
+    virtual ::grpc::ClientAsyncResponseReaderInterface< ::mydb::Entry>* PrepareAsyncGetRaw(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) = 0;
+    virtual ::grpc::ClientAsyncResponseReaderInterface< ::mydb::EntryKey>* AsyncSetRaw(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) = 0;
+    virtual ::grpc::ClientAsyncResponseReaderInterface< ::mydb::EntryKey>* PrepareAsyncSetRaw(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) = 0;
   };
   class Stub final : public StubInterface {
    public:
     Stub(const std::shared_ptr< ::grpc::ChannelInterface>& channel, const ::grpc::StubOptions& options = ::grpc::StubOptions());
-    ::grpc::Status Get(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::mydb::EntryValue* response) override;
-    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::EntryValue>> AsyncGet(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) {
-      return std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::EntryValue>>(AsyncGetRaw(context, request, cq));
+    ::grpc::Status Get(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::mydb::Entry* response) override;
+    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::Entry>> AsyncGet(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) {
+      return std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::Entry>>(AsyncGetRaw(context, request, cq));
     }
-    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::EntryValue>> PrepareAsyncGet(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) {
-      return std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::EntryValue>>(PrepareAsyncGetRaw(context, request, cq));
+    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::Entry>> PrepareAsyncGet(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) {
+      return std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::Entry>>(PrepareAsyncGetRaw(context, request, cq));
     }
-    ::grpc::Status Set(::grpc::ClientContext* context, const ::mydb::Entry& request, ::mydb::SetResp* response) override;
-    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::SetResp>> AsyncSet(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) {
-      return std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::SetResp>>(AsyncSetRaw(context, request, cq));
+    ::grpc::Status Set(::grpc::ClientContext* context, const ::mydb::Entry& request, ::mydb::EntryKey* response) override;
+    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::EntryKey>> AsyncSet(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) {
+      return std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::EntryKey>>(AsyncSetRaw(context, request, cq));
     }
-    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::SetResp>> PrepareAsyncSet(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) {
-      return std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::SetResp>>(PrepareAsyncSetRaw(context, request, cq));
+    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::EntryKey>> PrepareAsyncSet(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) {
+      return std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::mydb::EntryKey>>(PrepareAsyncSetRaw(context, request, cq));
     }
     class async final :
       public StubInterface::async_interface {
      public:
-      void Get(::grpc::ClientContext* context, const ::mydb::EntryKey* request, ::mydb::EntryValue* response, std::function<void(::grpc::Status)>) override;
-      void Get(::grpc::ClientContext* context, const ::mydb::EntryKey* request, ::mydb::EntryValue* response, ::grpc::ClientUnaryReactor* reactor) override;
-      void Set(::grpc::ClientContext* context, const ::mydb::Entry* request, ::mydb::SetResp* response, std::function<void(::grpc::Status)>) override;
-      void Set(::grpc::ClientContext* context, const ::mydb::Entry* request, ::mydb::SetResp* response, ::grpc::ClientUnaryReactor* reactor) override;
+      void Get(::grpc::ClientContext* context, const ::mydb::EntryKey* request, ::mydb::Entry* response, std::function<void(::grpc::Status)>) override;
+      void Get(::grpc::ClientContext* context, const ::mydb::EntryKey* request, ::mydb::Entry* response, ::grpc::ClientUnaryReactor* reactor) override;
+      void Set(::grpc::ClientContext* context, const ::mydb::Entry* request, ::mydb::EntryKey* response, std::function<void(::grpc::Status)>) override;
+      void Set(::grpc::ClientContext* context, const ::mydb::Entry* request, ::mydb::EntryKey* response, ::grpc::ClientUnaryReactor* reactor) override;
      private:
       friend class Stub;
       explicit async(Stub* stub): stub_(stub) { }
@@ -102,10 +102,10 @@ class MyDB final {
    private:
     std::shared_ptr< ::grpc::ChannelInterface> channel_;
     class async async_stub_{this};
-    ::grpc::ClientAsyncResponseReader< ::mydb::EntryValue>* AsyncGetRaw(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) override;
-    ::grpc::ClientAsyncResponseReader< ::mydb::EntryValue>* PrepareAsyncGetRaw(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) override;
-    ::grpc::ClientAsyncResponseReader< ::mydb::SetResp>* AsyncSetRaw(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) override;
-    ::grpc::ClientAsyncResponseReader< ::mydb::SetResp>* PrepareAsyncSetRaw(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) override;
+    ::grpc::ClientAsyncResponseReader< ::mydb::Entry>* AsyncGetRaw(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) override;
+    ::grpc::ClientAsyncResponseReader< ::mydb::Entry>* PrepareAsyncGetRaw(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) override;
+    ::grpc::ClientAsyncResponseReader< ::mydb::EntryKey>* AsyncSetRaw(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) override;
+    ::grpc::ClientAsyncResponseReader< ::mydb::EntryKey>* PrepareAsyncSetRaw(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) override;
     const ::grpc::internal::RpcMethod rpcmethod_Get_;
     const ::grpc::internal::RpcMethod rpcmethod_Set_;
   };
@@ -115,8 +115,8 @@ class MyDB final {
    public:
     Service();
     virtual ~Service();
-    virtual ::grpc::Status Get(::grpc::ServerContext* context, const ::mydb::EntryKey* request, ::mydb::EntryValue* response);
-    virtual ::grpc::Status Set(::grpc::ServerContext* context, const ::mydb::Entry* request, ::mydb::SetResp* response);
+    virtual ::grpc::Status Get(::grpc::ServerContext* context, const ::mydb::EntryKey* request, ::mydb::Entry* response);
+    virtual ::grpc::Status Set(::grpc::ServerContext* context, const ::mydb::Entry* request, ::mydb::EntryKey* response);
   };
   template <class BaseClass>
   class WithAsyncMethod_Get : public BaseClass {
@@ -130,11 +130,11 @@ class MyDB final {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable synchronous version of this method
-    ::grpc::Status Get(::grpc::ServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::EntryValue* /*response*/) override {
+    ::grpc::Status Get(::grpc::ServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::Entry* /*response*/) override {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
-    void RequestGet(::grpc::ServerContext* context, ::mydb::EntryKey* request, ::grpc::ServerAsyncResponseWriter< ::mydb::EntryValue>* response, ::grpc::CompletionQueue* new_call_cq, ::grpc::ServerCompletionQueue* notification_cq, void *tag) {
+    void RequestGet(::grpc::ServerContext* context, ::mydb::EntryKey* request, ::grpc::ServerAsyncResponseWriter< ::mydb::Entry>* response, ::grpc::CompletionQueue* new_call_cq, ::grpc::ServerCompletionQueue* notification_cq, void *tag) {
       ::grpc::Service::RequestAsyncUnary(0, context, request, response, new_call_cq, notification_cq, tag);
     }
   };
@@ -150,11 +150,11 @@ class MyDB final {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable synchronous version of this method
-    ::grpc::Status Set(::grpc::ServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::SetResp* /*response*/) override {
+    ::grpc::Status Set(::grpc::ServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::EntryKey* /*response*/) override {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
-    void RequestSet(::grpc::ServerContext* context, ::mydb::Entry* request, ::grpc::ServerAsyncResponseWriter< ::mydb::SetResp>* response, ::grpc::CompletionQueue* new_call_cq, ::grpc::ServerCompletionQueue* notification_cq, void *tag) {
+    void RequestSet(::grpc::ServerContext* context, ::mydb::Entry* request, ::grpc::ServerAsyncResponseWriter< ::mydb::EntryKey>* response, ::grpc::CompletionQueue* new_call_cq, ::grpc::ServerCompletionQueue* notification_cq, void *tag) {
       ::grpc::Service::RequestAsyncUnary(1, context, request, response, new_call_cq, notification_cq, tag);
     }
   };
@@ -166,25 +166,25 @@ class MyDB final {
    public:
     WithCallbackMethod_Get() {
       ::grpc::Service::MarkMethodCallback(0,
-          new ::grpc::internal::CallbackUnaryHandler< ::mydb::EntryKey, ::mydb::EntryValue>(
+          new ::grpc::internal::CallbackUnaryHandler< ::mydb::EntryKey, ::mydb::Entry>(
             [this](
-                   ::grpc::CallbackServerContext* context, const ::mydb::EntryKey* request, ::mydb::EntryValue* response) { return this->Get(context, request, response); }));}
+                   ::grpc::CallbackServerContext* context, const ::mydb::EntryKey* request, ::mydb::Entry* response) { return this->Get(context, request, response); }));}
     void SetMessageAllocatorFor_Get(
-        ::grpc::MessageAllocator< ::mydb::EntryKey, ::mydb::EntryValue>* allocator) {
+        ::grpc::MessageAllocator< ::mydb::EntryKey, ::mydb::Entry>* allocator) {
       ::grpc::internal::MethodHandler* const handler = ::grpc::Service::GetHandler(0);
-      static_cast<::grpc::internal::CallbackUnaryHandler< ::mydb::EntryKey, ::mydb::EntryValue>*>(handler)
+      static_cast<::grpc::internal::CallbackUnaryHandler< ::mydb::EntryKey, ::mydb::Entry>*>(handler)
               ->SetMessageAllocator(allocator);
     }
     ~WithCallbackMethod_Get() override {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable synchronous version of this method
-    ::grpc::Status Get(::grpc::ServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::EntryValue* /*response*/) override {
+    ::grpc::Status Get(::grpc::ServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::Entry* /*response*/) override {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
     virtual ::grpc::ServerUnaryReactor* Get(
-      ::grpc::CallbackServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::EntryValue* /*response*/)  { return nullptr; }
+      ::grpc::CallbackServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::Entry* /*response*/)  { return nullptr; }
   };
   template <class BaseClass>
   class WithCallbackMethod_Set : public BaseClass {
@@ -193,25 +193,25 @@ class MyDB final {
    public:
     WithCallbackMethod_Set() {
       ::grpc::Service::MarkMethodCallback(1,
-          new ::grpc::internal::CallbackUnaryHandler< ::mydb::Entry, ::mydb::SetResp>(
+          new ::grpc::internal::CallbackUnaryHandler< ::mydb::Entry, ::mydb::EntryKey>(
             [this](
-                   ::grpc::CallbackServerContext* context, const ::mydb::Entry* request, ::mydb::SetResp* response) { return this->Set(context, request, response); }));}
+                   ::grpc::CallbackServerContext* context, const ::mydb::Entry* request, ::mydb::EntryKey* response) { return this->Set(context, request, response); }));}
     void SetMessageAllocatorFor_Set(
-        ::grpc::MessageAllocator< ::mydb::Entry, ::mydb::SetResp>* allocator) {
+        ::grpc::MessageAllocator< ::mydb::Entry, ::mydb::EntryKey>* allocator) {
       ::grpc::internal::MethodHandler* const handler = ::grpc::Service::GetHandler(1);
-      static_cast<::grpc::internal::CallbackUnaryHandler< ::mydb::Entry, ::mydb::SetResp>*>(handler)
+      static_cast<::grpc::internal::CallbackUnaryHandler< ::mydb::Entry, ::mydb::EntryKey>*>(handler)
               ->SetMessageAllocator(allocator);
     }
     ~WithCallbackMethod_Set() override {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable synchronous version of this method
-    ::grpc::Status Set(::grpc::ServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::SetResp* /*response*/) override {
+    ::grpc::Status Set(::grpc::ServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::EntryKey* /*response*/) override {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
     virtual ::grpc::ServerUnaryReactor* Set(
-      ::grpc::CallbackServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::SetResp* /*response*/)  { return nullptr; }
+      ::grpc::CallbackServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::EntryKey* /*response*/)  { return nullptr; }
   };
   typedef WithCallbackMethod_Get<WithCallbackMethod_Set<Service > > CallbackService;
   typedef CallbackService ExperimentalCallbackService;
@@ -227,7 +227,7 @@ class MyDB final {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable synchronous version of this method
-    ::grpc::Status Get(::grpc::ServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::EntryValue* /*response*/) override {
+    ::grpc::Status Get(::grpc::ServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::Entry* /*response*/) override {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
@@ -244,7 +244,7 @@ class MyDB final {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable synchronous version of this method
-    ::grpc::Status Set(::grpc::ServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::SetResp* /*response*/) override {
+    ::grpc::Status Set(::grpc::ServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::EntryKey* /*response*/) override {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
@@ -261,7 +261,7 @@ class MyDB final {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable synchronous version of this method
-    ::grpc::Status Get(::grpc::ServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::EntryValue* /*response*/) override {
+    ::grpc::Status Get(::grpc::ServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::Entry* /*response*/) override {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
@@ -281,7 +281,7 @@ class MyDB final {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable synchronous version of this method
-    ::grpc::Status Set(::grpc::ServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::SetResp* /*response*/) override {
+    ::grpc::Status Set(::grpc::ServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::EntryKey* /*response*/) override {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
@@ -304,7 +304,7 @@ class MyDB final {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable synchronous version of this method
-    ::grpc::Status Get(::grpc::ServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::EntryValue* /*response*/) override {
+    ::grpc::Status Get(::grpc::ServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::Entry* /*response*/) override {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
@@ -326,7 +326,7 @@ class MyDB final {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable synchronous version of this method
-    ::grpc::Status Set(::grpc::ServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::SetResp* /*response*/) override {
+    ::grpc::Status Set(::grpc::ServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::EntryKey* /*response*/) override {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
@@ -341,10 +341,10 @@ class MyDB final {
     WithStreamedUnaryMethod_Get() {
       ::grpc::Service::MarkMethodStreamed(0,
         new ::grpc::internal::StreamedUnaryHandler<
-          ::mydb::EntryKey, ::mydb::EntryValue>(
+          ::mydb::EntryKey, ::mydb::Entry>(
             [this](::grpc::ServerContext* context,
                    ::grpc::ServerUnaryStreamer<
-                     ::mydb::EntryKey, ::mydb::EntryValue>* streamer) {
+                     ::mydb::EntryKey, ::mydb::Entry>* streamer) {
                        return this->StreamedGet(context,
                          streamer);
                   }));
@@ -353,12 +353,12 @@ class MyDB final {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable regular version of this method
-    ::grpc::Status Get(::grpc::ServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::EntryValue* /*response*/) override {
+    ::grpc::Status Get(::grpc::ServerContext* /*context*/, const ::mydb::EntryKey* /*request*/, ::mydb::Entry* /*response*/) override {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
     // replace default version of method with streamed unary
-    virtual ::grpc::Status StreamedGet(::grpc::ServerContext* context, ::grpc::ServerUnaryStreamer< ::mydb::EntryKey,::mydb::EntryValue>* server_unary_streamer) = 0;
+    virtual ::grpc::Status StreamedGet(::grpc::ServerContext* context, ::grpc::ServerUnaryStreamer< ::mydb::EntryKey,::mydb::Entry>* server_unary_streamer) = 0;
   };
   template <class BaseClass>
   class WithStreamedUnaryMethod_Set : public BaseClass {
@@ -368,10 +368,10 @@ class MyDB final {
     WithStreamedUnaryMethod_Set() {
       ::grpc::Service::MarkMethodStreamed(1,
         new ::grpc::internal::StreamedUnaryHandler<
-          ::mydb::Entry, ::mydb::SetResp>(
+          ::mydb::Entry, ::mydb::EntryKey>(
             [this](::grpc::ServerContext* context,
                    ::grpc::ServerUnaryStreamer<
-                     ::mydb::Entry, ::mydb::SetResp>* streamer) {
+                     ::mydb::Entry, ::mydb::EntryKey>* streamer) {
                        return this->StreamedSet(context,
                          streamer);
                   }));
@@ -380,12 +380,12 @@ class MyDB final {
       BaseClassMustBeDerivedFromService(this);
     }
     // disable regular version of this method
-    ::grpc::Status Set(::grpc::ServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::SetResp* /*response*/) override {
+    ::grpc::Status Set(::grpc::ServerContext* /*context*/, const ::mydb::Entry* /*request*/, ::mydb::EntryKey* /*response*/) override {
       abort();
       return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
     }
     // replace default version of method with streamed unary
-    virtual ::grpc::Status StreamedSet(::grpc::ServerContext* context, ::grpc::ServerUnaryStreamer< ::mydb::Entry,::mydb::SetResp>* server_unary_streamer) = 0;
+    virtual ::grpc::Status StreamedSet(::grpc::ServerContext* context, ::grpc::ServerUnaryStreamer< ::mydb::Entry,::mydb::EntryKey>* server_unary_streamer) = 0;
   };
   typedef WithStreamedUnaryMethod_Get<WithStreamedUnaryMethod_Set<Service > > StreamedUnaryService;
   typedef Service SplitStreamedService;

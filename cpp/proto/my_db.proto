@@ -8,13 +8,8 @@ package mydb;
 
 // Interface exported by the server.
 service MyDB {
-  rpc Get(EntryKey) returns (EntryValue) {}
-  rpc Set(Entry) returns (SetResp){}
-}
-
-
-message SetResp{
-  int64 code =1;
+  rpc Get(EntryKey) returns (Entry) {}
+  rpc Set(Entry) returns (EntryKey){}
 }
 
 

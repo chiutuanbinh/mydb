@@ -37,46 +37,46 @@ MyDB::Stub::Stub(const std::shared_ptr< ::grpc::ChannelInterface>& channel, cons
   , rpcmethod_Set_(MyDB_method_names[1], options.suffix_for_stats(),::grpc::internal::RpcMethod::NORMAL_RPC, channel)
   {}
 
-::grpc::Status MyDB::Stub::Get(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::mydb::EntryValue* response) {
-  return ::grpc::internal::BlockingUnaryCall< ::mydb::EntryKey, ::mydb::EntryValue, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(channel_.get(), rpcmethod_Get_, context, request, response);
+::grpc::Status MyDB::Stub::Get(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::mydb::Entry* response) {
+  return ::grpc::internal::BlockingUnaryCall< ::mydb::EntryKey, ::mydb::Entry, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(channel_.get(), rpcmethod_Get_, context, request, response);
 }
 
-void MyDB::Stub::async::Get(::grpc::ClientContext* context, const ::mydb::EntryKey* request, ::mydb::EntryValue* response, std::function<void(::grpc::Status)> f) {
-  ::grpc::internal::CallbackUnaryCall< ::mydb::EntryKey, ::mydb::EntryValue, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(stub_->channel_.get(), stub_->rpcmethod_Get_, context, request, response, std::move(f));
+void MyDB::Stub::async::Get(::grpc::ClientContext* context, const ::mydb::EntryKey* request, ::mydb::Entry* response, std::function<void(::grpc::Status)> f) {
+  ::grpc::internal::CallbackUnaryCall< ::mydb::EntryKey, ::mydb::Entry, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(stub_->channel_.get(), stub_->rpcmethod_Get_, context, request, response, std::move(f));
 }
 
-void MyDB::Stub::async::Get(::grpc::ClientContext* context, const ::mydb::EntryKey* request, ::mydb::EntryValue* response, ::grpc::ClientUnaryReactor* reactor) {
+void MyDB::Stub::async::Get(::grpc::ClientContext* context, const ::mydb::EntryKey* request, ::mydb::Entry* response, ::grpc::ClientUnaryReactor* reactor) {
   ::grpc::internal::ClientCallbackUnaryFactory::Create< ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(stub_->channel_.get(), stub_->rpcmethod_Get_, context, request, response, reactor);
 }
 
-::grpc::ClientAsyncResponseReader< ::mydb::EntryValue>* MyDB::Stub::PrepareAsyncGetRaw(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) {
-  return ::grpc::internal::ClientAsyncResponseReaderHelper::Create< ::mydb::EntryValue, ::mydb::EntryKey, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(channel_.get(), cq, rpcmethod_Get_, context, request);
+::grpc::ClientAsyncResponseReader< ::mydb::Entry>* MyDB::Stub::PrepareAsyncGetRaw(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) {
+  return ::grpc::internal::ClientAsyncResponseReaderHelper::Create< ::mydb::Entry, ::mydb::EntryKey, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(channel_.get(), cq, rpcmethod_Get_, context, request);
 }
 
-::grpc::ClientAsyncResponseReader< ::mydb::EntryValue>* MyDB::Stub::AsyncGetRaw(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) {
+::grpc::ClientAsyncResponseReader< ::mydb::Entry>* MyDB::Stub::AsyncGetRaw(::grpc::ClientContext* context, const ::mydb::EntryKey& request, ::grpc::CompletionQueue* cq) {
   auto* result =
     this->PrepareAsyncGetRaw(context, request, cq);
   result->StartCall();
   return result;
 }
 
-::grpc::Status MyDB::Stub::Set(::grpc::ClientContext* context, const ::mydb::Entry& request, ::mydb::SetResp* response) {
-  return ::grpc::internal::BlockingUnaryCall< ::mydb::Entry, ::mydb::SetResp, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(channel_.get(), rpcmethod_Set_, context, request, response);
+::grpc::Status MyDB::Stub::Set(::grpc::ClientContext* context, const ::mydb::Entry& request, ::mydb::EntryKey* response) {
+  return ::grpc::internal::BlockingUnaryCall< ::mydb::Entry, ::mydb::EntryKey, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(channel_.get(), rpcmethod_Set_, context, request, response);
 }
 
-void MyDB::Stub::async::Set(::grpc::ClientContext* context, const ::mydb::Entry* request, ::mydb::SetResp* response, std::function<void(::grpc::Status)> f) {
-  ::grpc::internal::CallbackUnaryCall< ::mydb::Entry, ::mydb::SetResp, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(stub_->channel_.get(), stub_->rpcmethod_Set_, context, request, response, std::move(f));
+void MyDB::Stub::async::Set(::grpc::ClientContext* context, const ::mydb::Entry* request, ::mydb::EntryKey* response, std::function<void(::grpc::Status)> f) {
+  ::grpc::internal::CallbackUnaryCall< ::mydb::Entry, ::mydb::EntryKey, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(stub_->channel_.get(), stub_->rpcmethod_Set_, context, request, response, std::move(f));
 }
 
-void MyDB::Stub::async::Set(::grpc::ClientContext* context, const ::mydb::Entry* request, ::mydb::SetResp* response, ::grpc::ClientUnaryReactor* reactor) {
+void MyDB::Stub::async::Set(::grpc::ClientContext* context, const ::mydb::Entry* request, ::mydb::EntryKey* response, ::grpc::ClientUnaryReactor* reactor) {
   ::grpc::internal::ClientCallbackUnaryFactory::Create< ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(stub_->channel_.get(), stub_->rpcmethod_Set_, context, request, response, reactor);
 }
 
-::grpc::ClientAsyncResponseReader< ::mydb::SetResp>* MyDB::Stub::PrepareAsyncSetRaw(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) {
-  return ::grpc::internal::ClientAsyncResponseReaderHelper::Create< ::mydb::SetResp, ::mydb::Entry, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(channel_.get(), cq, rpcmethod_Set_, context, request);
+::grpc::ClientAsyncResponseReader< ::mydb::EntryKey>* MyDB::Stub::PrepareAsyncSetRaw(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) {
+  return ::grpc::internal::ClientAsyncResponseReaderHelper::Create< ::mydb::EntryKey, ::mydb::Entry, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(channel_.get(), cq, rpcmethod_Set_, context, request);
 }
 
-::grpc::ClientAsyncResponseReader< ::mydb::SetResp>* MyDB::Stub::AsyncSetRaw(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) {
+::grpc::ClientAsyncResponseReader< ::mydb::EntryKey>* MyDB::Stub::AsyncSetRaw(::grpc::ClientContext* context, const ::mydb::Entry& request, ::grpc::CompletionQueue* cq) {
   auto* result =
     this->PrepareAsyncSetRaw(context, request, cq);
   result->StartCall();
@@ -87,21 +87,21 @@ MyDB::Service::Service() {
   AddMethod(new ::grpc::internal::RpcServiceMethod(
       MyDB_method_names[0],
       ::grpc::internal::RpcMethod::NORMAL_RPC,
-      new ::grpc::internal::RpcMethodHandler< MyDB::Service, ::mydb::EntryKey, ::mydb::EntryValue, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(
+      new ::grpc::internal::RpcMethodHandler< MyDB::Service, ::mydb::EntryKey, ::mydb::Entry, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(
           [](MyDB::Service* service,
              ::grpc::ServerContext* ctx,
              const ::mydb::EntryKey* req,
-             ::mydb::EntryValue* resp) {
+             ::mydb::Entry* resp) {
                return service->Get(ctx, req, resp);
              }, this)));
   AddMethod(new ::grpc::internal::RpcServiceMethod(
       MyDB_method_names[1],
       ::grpc::internal::RpcMethod::NORMAL_RPC,
-      new ::grpc::internal::RpcMethodHandler< MyDB::Service, ::mydb::Entry, ::mydb::SetResp, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(
+      new ::grpc::internal::RpcMethodHandler< MyDB::Service, ::mydb::Entry, ::mydb::EntryKey, ::grpc::protobuf::MessageLite, ::grpc::protobuf::MessageLite>(
           [](MyDB::Service* service,
              ::grpc::ServerContext* ctx,
              const ::mydb::Entry* req,
-             ::mydb::SetResp* resp) {
+             ::mydb::EntryKey* resp) {
                return service->Set(ctx, req, resp);
              }, this)));
 }
@@ -109,14 +109,14 @@ MyDB::Service::Service() {
 MyDB::Service::~Service() {
 }
 
-::grpc::Status MyDB::Service::Get(::grpc::ServerContext* context, const ::mydb::EntryKey* request, ::mydb::EntryValue* response) {
+::grpc::Status MyDB::Service::Get(::grpc::ServerContext* context, const ::mydb::EntryKey* request, ::mydb::Entry* response) {
   (void) context;
   (void) request;
   (void) response;
   return ::grpc::Status(::grpc::StatusCode::UNIMPLEMENTED, "");
 }
 
-::grpc::Status MyDB::Service::Set(::grpc::ServerContext* context, const ::mydb::Entry* request, ::mydb::SetResp* response) {
+::grpc::Status MyDB::Service::Set(::grpc::ServerContext* context, const ::mydb::Entry* request, ::mydb::EntryKey* response) {
   (void) context;
   (void) request;
   (void) response;
